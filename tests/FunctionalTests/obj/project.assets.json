@@ -4710,6 +4710,7 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.2",
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Sqlite": "(, )",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0",
           "Microsoft.Web.LibraryManager.Build": "2.1.175",
           "System.IdentityModel.Tokens.Jwt": "7.3.1"
