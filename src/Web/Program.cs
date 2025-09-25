@@ -18,12 +18,22 @@ using Microsoft.eShopWeb.Web;
 using Microsoft.eShopWeb.Web.Configuration;
 using Microsoft.eShopWeb.Web.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using System;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.AddConsole();
 
+// If ASPNETCORE_URLS is not set, avoid 8080 collisions by defaulting to 8081
+var urlsFromEnv = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (string.IsNullOrWhiteSpace(urlsFromEnv))
+{
+    builder.WebHost.UseUrls("http://0.0.0.0:8081");
+}
+
 if (builder.Environment.IsDevelopment() || builder.Environment.EnvironmentName == "Docker"){
-    // Configure SQL Server (local)
+    // Configure SQL Server (local) and other dependencies
     Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);
 }
 else{

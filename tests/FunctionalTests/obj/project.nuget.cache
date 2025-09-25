@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0wIEAXD6J3iO0MEg4IrXtJBlJ8uA8uOXAYMw4rJZMqnJNIqNsS3GOc8z8FOrSRhkPl3Jb0gL4QtUOBFsPbCgRQ==",
+  "dgSpecHash": "sqsYYwmxOYTfTLKDdE0XI1Ly3OramwGZU+CoJfYYVzzge8PZ+9F100HGCclLT1GuwdhFfD2Nv/O4L+AmLDoP4Q==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/FunctionalTests.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,6 @@
     "/home/kavia/.nuget/packages/azure.security.keyvault.secrets/4.2.0/azure.security.keyvault.secrets.4.2.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/blazored.localstorage/4.5.0/blazored.localstorage.4.5.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/blazorinputfile/0.2.0/blazorinputfile.0.2.0.nupkg.sha512",
-    "/home/kavia/.nuget/packages/buildbundlerminifier/3.2.449/buildbundlerminifier.3.2.449.nupkg.sha512",
     "/home/kavia/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/home/kavia/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

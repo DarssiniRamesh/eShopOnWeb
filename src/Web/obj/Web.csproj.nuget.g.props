@@ -28,6 +28,5 @@
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/home/kavia/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.2</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">/home/kavia/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/8.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/home/kavia/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/8.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
-    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">/home/kavia/.nuget/packages/buildbundlerminifier/3.2.449</PkgBuildBundlerMinifier>
   </PropertyGroup>
 </Project>

@@ -9,6 +9,14 @@ namespace Microsoft.eShopWeb.Infrastructure.Data;
 
 public class CatalogContextSeed
 {
+    // PUBLIC_INTERFACE
+    /// <summary>
+    /// Seeds the catalog database with initial data if empty. Safe to call on startup.
+    /// Logs errors and retries a limited number of times before surfacing the exception.
+    /// </summary>
+    /// <param name="catalogContext">The EF Core catalog context.</param>
+    /// <param name="logger">Logger for diagnostics.</param>
+    /// <param name="retry">Retry count used for transient failures.</param>
     public static async Task SeedAsync(CatalogContext catalogContext,
         ILogger logger,
         int retry = 0)

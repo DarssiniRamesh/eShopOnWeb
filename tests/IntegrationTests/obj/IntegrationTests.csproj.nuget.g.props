@@ -31,7 +31,6 @@
     <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">/home/kavia/.nuget/packages/microsoft.codeanalysis.analyzerutilities/3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">/home/kavia/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/8.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/home/kavia/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/8.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
-    <PkgBuildBundlerMinifier Condition=" '$(PkgBuildBundlerMinifier)' == '' ">/home/kavia/.nuget/packages/buildbundlerminifier/3.2.449</PkgBuildBundlerMinifier>
     <PkgNSubstitute_Analyzers_CSharp Condition=" '$(PkgNSubstitute_Analyzers_CSharp)' == '' ">/home/kavia/.nuget/packages/nsubstitute.analyzers.csharp/1.0.17</PkgNSubstitute_Analyzers_CSharp>
   </PropertyGroup>
 </Project>

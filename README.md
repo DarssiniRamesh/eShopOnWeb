@@ -44,7 +44,18 @@ The goal for this sample is to demonstrate some of the principles and patterns d
 - Development Process for Azure-Hosted ASP.NET Core Apps
 - Azure Hosting Recommendations for ASP.NET Core Web Apps
 
-## Running the sample using Azd template
+## Running the sample
+
+### Local development defaults (container/CI friendly)
+- Default environment: `Development`
+- Default URL (if ASPNETCORE_URLS not set): `http://0.0.0.0:8081`
+- Default DB (Development): SQLite at `./src/Web/App_Data/eshop.db` to avoid LocalDB issues on Linux
+
+To override, set:
+- `ASPNETCORE_URLS` to the desired URL(s)
+- `ConnectionStrings__DefaultConnection` for a different database (e.g., SQL Server)
+
+Create a `.env` file based on `.env.example` with `JWT_SECRET_KEY` and connection string. using Azd template
 
 The store's home page should look like this:
 
