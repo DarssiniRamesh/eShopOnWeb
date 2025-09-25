@@ -8,31 +8,28 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy sln and props first to leverage Docker layer caching
-COPY ../../eShopOnWeb.sln ./eShopOnWeb.sln
-COPY ../../Directory.Packages.props ./Directory.Packages.props
-COPY ../../global.json ./global.json
+# Copy sln and props first to leverage Docker layer caching (paths relative to build context root)
+COPY eShopOnWeb.sln ./eShopOnWeb.sln
+COPY Directory.Packages.props ./Directory.Packages.props
+COPY global.json ./global.json
 
 # Copy csproj files explicitly to avoid ambiguous restore contexts
-COPY ../ApplicationCore/ApplicationCore.csproj src/ApplicationCore/ApplicationCore.csproj
-COPY ../Infrastructure/Infrastructure.csproj src/Infrastructure/Infrastructure.csproj
-COPY ../BlazorShared/BlazorShared.csproj src/BlazorShared/BlazorShared.csproj
-COPY PublicApi.csproj src/PublicApi/PublicApi.csproj
-COPY ../BlazorAdmin/BlazorAdmin.csproj src/BlazorAdmin/BlazorAdmin.csproj
-COPY ../Web/Web.csproj src/Web/Web.csproj
-COPY ../../tests/UnitTests/UnitTests.csproj tests/UnitTests/UnitTests.csproj
-COPY ../../tests/FunctionalTests/FunctionalTests.csproj tests/FunctionalTests/FunctionalTests.csproj
-COPY ../../tests/IntegrationTests/IntegrationTests.csproj tests/IntegrationTests/IntegrationTests.csproj
-COPY ../../tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj
+COPY src/ApplicationCore/ApplicationCore.csproj src/ApplicationCore/ApplicationCore.csproj
+COPY src/Infrastructure/Infrastructure.csproj src/Infrastructure/Infrastructure.csproj
+COPY src/BlazorShared/BlazorShared.csproj src/BlazorShared/BlazorShared.csproj
+COPY src/PublicApi/PublicApi.csproj src/PublicApi/PublicApi.csproj
+COPY src/BlazorAdmin/BlazorAdmin.csproj src/BlazorAdmin/BlazorAdmin.csproj
+COPY src/Web/Web.csproj src/Web/Web.csproj
+COPY tests/UnitTests/UnitTests.csproj tests/UnitTests/UnitTests.csproj
+COPY tests/FunctionalTests/FunctionalTests.csproj tests/FunctionalTests/FunctionalTests.csproj
+COPY tests/IntegrationTests/IntegrationTests.csproj tests/IntegrationTests/IntegrationTests.csproj
+COPY tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj
 
 # Restore explicitly against the solution to avoid MSB1011 ambiguity
 RUN dotnet restore "./eShopOnWeb.sln"
 
-# Copy remaining source content from solution root into build context
-# The build context for this Dockerfile is repository root when used via compose with context: .
-# However, when invoked from src/PublicApi, docker-compose.yml sets build.context as '.' (solution root),
-# and dockerfile: src/PublicApi/Dockerfile - so we can copy the rest now:
-COPY ../../ .
+# Copy remaining source content from solution root into build context target (/src)
+COPY . .
 
 # Build the solution explicitly
 RUN dotnet build "./eShopOnWeb.sln" -c Release -o /app/build --no-restore
