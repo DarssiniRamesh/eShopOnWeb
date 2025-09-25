@@ -1,0 +1,2 @@
+/home/kavia/workspace/code-generation/eShopOnWeb/src/Web/obj/Release/net8.0/Web.csproj.AssemblyReference.cache
+/home/kavia/workspace/code-generation/eShopOnWeb/src/Web/obj/Release/net8.0/Web.GeneratedMSBuildEditorConfig.editorconfig
