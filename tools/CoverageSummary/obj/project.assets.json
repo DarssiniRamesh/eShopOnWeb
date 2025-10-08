@@ -6,7 +6,7 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net8.0": [
-      "System.CommandLine >= 2.0.0-beta4.22272.1"
+      null
     ]
   },
   "packageFolders": {
@@ -49,7 +49,8 @@
         "dependencies": {
           "System.CommandLine": {
             "target": "Package",
-            "version": "[2.0.0-beta4.22272.1, )"
+            "version": "(, )",
+            "versionCentrallyManaged": true
           }
         },
         "centralPackageVersions": {
@@ -126,9 +127,9 @@
   },
   "logs": [
     {
-      "code": "NU1008",
+      "code": "NU1010",
       "level": "Error",
-      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: System.CommandLine."
+      "message": "The PackageReference items System.CommandLine do not have corresponding PackageVersion."
     }
   ]
 }
