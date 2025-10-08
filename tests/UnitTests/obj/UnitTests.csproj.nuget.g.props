@@ -13,7 +13,7 @@
     <SourceRoot Include="/home/kavia/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.5.6/build/net6.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.5.6/build/net6.0/xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.5.7/build/net6.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.5.7/build/net6.0/xunit.runner.visualstudio.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.runner.console/2.7.0/build/xunit.runner.console.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.console/2.7.0/build/xunit.runner.console.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.core/2.7.0/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.7.0/build/xunit.core.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props')" />

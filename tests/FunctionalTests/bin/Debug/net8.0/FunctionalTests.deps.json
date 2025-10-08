@@ -43,7 +43,7 @@
           "PublicApi": "1.0.0",
           "Web": "1.0.0",
           "xunit": "2.7.0",
-          "xunit.runner.visualstudio": "2.5.6",
+          "xunit.runner.visualstudio": "2.5.7",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -3623,7 +3623,7 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
-      "xunit.runner.visualstudio/2.5.6": {},
+      "xunit.runner.visualstudio/2.5.7": {},
       "ApplicationCore/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.0.1",
@@ -7337,12 +7337,12 @@
       "path": "xunit.extensibility.execution/2.7.0",
       "hashPath": "xunit.extensibility.execution.2.7.0.nupkg.sha512"
     },
-    "xunit.runner.visualstudio/2.5.6": {
+    "xunit.runner.visualstudio/2.5.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CW6uhMXNaQQNMSG1IWhHkBT+V5eqHqn7MP0zfNMhU9wS/sgKX7FGL3rzoaUgt26wkY3bpf7pDVw3IjXhwfiP4w==",
-      "path": "xunit.runner.visualstudio/2.5.6",
-      "hashPath": "xunit.runner.visualstudio.2.5.6.nupkg.sha512"
+      "sha512": "sha512-31Rl7dBJriX0DNwZfDp8gqFOPsiM0c9kqpcH/HvNi9vDp+K7Ydf42H7mVIvYT918Ywzn1ymLg1c4DDC6iU754w==",
+      "path": "xunit.runner.visualstudio/2.5.7",
+      "hashPath": "xunit.runner.visualstudio.2.5.7.nupkg.sha512"
     },
     "ApplicationCore/1.0.0": {
       "type": "project",

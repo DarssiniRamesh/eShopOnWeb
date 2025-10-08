@@ -18,8 +18,7 @@ public class CatalogItemsSpecificationTests
             new CatalogItem(1,1,"","C",1m,"")
         }.AsQueryable();
 
-        var testIds = new[] { 1 };
-        var spec = new CatalogItemsSpecification(testIds);  // Pass array of test IDs
+        var spec = new CatalogItemsSpecification(1);  // Pass single ID to params array constructor
         
         // Since we can't set IDs in test objects, we'll just verify the query is created
         Assert.NotNull(spec);

@@ -1,0 +1,1 @@
+/home/kavia/workspace/code-generation/eShopOnWeb/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

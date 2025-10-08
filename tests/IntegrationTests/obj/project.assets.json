@@ -4174,7 +4174,7 @@
           "build/_._": {}
         }
       },
-      "xunit.runner.visualstudio/2.5.6": {
+      "xunit.runner.visualstudio/2.5.7": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -4268,7 +4268,7 @@
           "Web": "1.0.0",
           "xunit": "2.7.0",
           "xunit.runner.console": "2.7.0",
-          "xunit.runner.visualstudio": "2.5.6"
+          "xunit.runner.visualstudio": "2.5.7"
         },
         "compile": {
           "bin/placeholder/UnitTests.dll": {}
@@ -11887,10 +11887,10 @@
         "xunit.runner.console.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.5.6": {
-      "sha512": "CW6uhMXNaQQNMSG1IWhHkBT+V5eqHqn7MP0zfNMhU9wS/sgKX7FGL3rzoaUgt26wkY3bpf7pDVw3IjXhwfiP4w==",
+    "xunit.runner.visualstudio/2.5.7": {
+      "sha512": "31Rl7dBJriX0DNwZfDp8gqFOPsiM0c9kqpcH/HvNi9vDp+K7Ydf42H7mVIvYT918Ywzn1ymLg1c4DDC6iU754w==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.5.6",
+      "path": "xunit.runner.visualstudio/2.5.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11908,7 +11908,7 @@
         "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
         "lib/net462/_._",
         "lib/net6.0/_._",
-        "xunit.runner.visualstudio.2.5.6.nupkg.sha512",
+        "xunit.runner.visualstudio.2.5.7.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -11952,7 +11952,7 @@
       "NSubstitute.Analyzers.CSharp >= 1.0.17",
       "UnitTests >= 1.0.0",
       "xunit >= 2.7.0",
-      "xunit.runner.visualstudio >= 2.5.6"
+      "xunit.runner.visualstudio >= 2.5.7"
     ]
   },
   "packageFolders": {
@@ -12031,7 +12031,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.5.6, )",
+            "version": "[2.5.7, )",
             "versionCentrallyManaged": true
           }
         },
@@ -12085,7 +12085,7 @@
           "System.Text.Json": "[8.0.3, )",
           "xunit": "[2.7.0, )",
           "xunit.runner.console": "[2.7.0, )",
-          "xunit.runner.visualstudio": "[2.5.6, )"
+          "xunit.runner.visualstudio": "[2.5.7, )"
         },
         "imports": [
           "net461",

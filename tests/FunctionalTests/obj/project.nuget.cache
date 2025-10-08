@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ymNAibFeMRSzAzB0DTVR775FP8BFgr+k1iDFGLMivNydiadnAgCXCefbg+62zKnGAeQm/Gg1rbUThyJaNN0nZw==",
+  "dgSpecHash": "NDOMQJv4wfhyho/+JQIi5So7dV5TlJ/gb9+cVCbiSkbBuxWWJZc6P3H+KMKbA9oybJ9h/2Izo1yf/mpdN4BHuA==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/FunctionalTests.csproj",
   "expectedPackageFiles": [
@@ -258,7 +258,7 @@
     "/home/kavia/.nuget/packages/xunit.core/2.7.0/xunit.core.2.7.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/xunit.extensibility.core/2.7.0/xunit.extensibility.core.2.7.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/xunit.extensibility.execution/2.7.0/xunit.extensibility.execution.2.7.0.nupkg.sha512",
-    "/home/kavia/.nuget/packages/xunit.runner.visualstudio/2.5.6/xunit.runner.visualstudio.2.5.6.nupkg.sha512"
+    "/home/kavia/.nuget/packages/xunit.runner.visualstudio/2.5.7/xunit.runner.visualstudio.2.5.7.nupkg.sha512"
   ],
   "logs": []
 }

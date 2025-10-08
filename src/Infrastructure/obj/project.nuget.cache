@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1+StDlbO7ygfri6b0I46OStbCS8viB99rcUzRAy//105x2aLiG/uwtAIgT7G5cA0ohuifK5CsZCsFOC1zxFXFw==",
+  "dgSpecHash": "ZDwf/Lw0kYwTnlfFBgKDOnjFLRQmHgt5W+uIHcJzwcQW6y5Z7rpRrrWf1jv3nDgWlX5daUggJG6eeRDXJN+n4g==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
