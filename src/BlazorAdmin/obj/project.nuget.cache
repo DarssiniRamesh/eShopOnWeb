@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UWRQRln8Q13QnNpxSEE9bT0uAySLai3a08YFDrC0WXxuozwmQ3LraBo08dvBo2nFYAVQzAsKxBa1Of9E7OGVxA==",
+  "dgSpecHash": "hn6tqkLlblvNPrPhkAlCYdArYcqqP8mM84B018JHe4bJt+XU0OaAMTg0WVqCyo6/nJ+45Bt2jQ/+mjlO4QPRWQ==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj",
   "expectedPackageFiles": [
@@ -38,13 +38,13 @@
     "/home/kavia/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/microsoft.jsinterop/8.0.2/microsoft.jsinterop.8.0.2.nupkg.sha512",
     "/home/kavia/.nuget/packages/microsoft.jsinterop.webassembly/8.0.2/microsoft.jsinterop.webassembly.8.0.2.nupkg.sha512",
-    "/home/kavia/.nuget/packages/microsoft.net.illink.tasks/8.0.19/microsoft.net.illink.tasks.8.0.19.nupkg.sha512",
-    "/home/kavia/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.19/microsoft.net.sdk.webassembly.pack.8.0.19.nupkg.sha512",
+    "/home/kavia/.nuget/packages/microsoft.net.illink.tasks/8.0.20/microsoft.net.illink.tasks.8.0.20.nupkg.sha512",
+    "/home/kavia/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.20/microsoft.net.sdk.webassembly.pack.8.0.20.nupkg.sha512",
     "/home/kavia/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/system.net.http.json/8.0.0/system.net.http.json.8.0.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.19.nupkg.sha512"
+    "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }

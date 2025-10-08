@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DMgP/dfDB2r6HNCBhy9dCj+nEzpG0vRPIcIRErk+jZM=",
+  "Hash": "75tytVLj5JtxS2qlLI5WcTLRIIHbPHT9SZwJOHLTDnU=",
   "Source": "BlazorAdmin",
   "BasePath": "/",
   "Mode": "Root",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.js"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.js.map"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.js.map"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.19.3cihphyhc8.js",
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.20.9ig5qhqoqy.js",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
       "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.19.3cihphyhc8.js",
+      "RelativePath": "_framework/dotnet.native.8.0.20.9ig5qhqoqy.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.native.js"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.native.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.native.wasm"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.native.wasm"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.19.kgian6uljb.js",
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.20.946dgyn7cb.js",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
       "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.19.kgian6uljb.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.20.946dgyn7cb.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.runtime.js"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.runtime.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/dotnet.runtime.js.map"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/dotnet.runtime.js.map"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/FluentValidation.wasm",
@@ -356,7 +356,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/icudt_CJK.dat"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/icudt_CJK.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
@@ -375,7 +375,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/icudt_EFIGS.dat"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/icudt_EFIGS.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
@@ -394,7 +394,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.19/runtimes/browser-wasm/native/icudt_no_CJK.dat"
+      "OriginalItemSpec": "/home/kavia/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.20/runtimes/browser-wasm/native/icudt_no_CJK.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.wasm",
@@ -4178,25 +4178,6 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Private.Uri.wasm"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/0fr2cm3gt8.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
-    },
-    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/0p10nxkx25.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -4330,6 +4311,25 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.wasm"
     },
     {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/267zsgobqz.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
+    },
+    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/28zbv0n0ca.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -4423,25 +4423,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Security.Claims.wasm"
-    },
-    {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/3cihphyhc8.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.19.3cihphyhc8.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.19.3cihphyhc8.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.19.3cihphyhc8.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/3iewpknw61.gz",
@@ -4765,44 +4746,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Resources.ResourceManager.wasm"
-    },
-    {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/6t2tm25yd6.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
-    },
-    {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/6xm3lf3pck.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/6z2ogskp99.gz",
@@ -5242,6 +5185,25 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/Microsoft.Extensions.Configuration.wasm"
     },
     {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/946dgyn7cb.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.20.946dgyn7cb.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.20.946dgyn7cb.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.20.946dgyn7cb.js"
+    },
+    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/9818o6amjk.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -5316,6 +5278,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Diagnostics.Tracing.wasm"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/9ig5qhqoqy.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.20.9ig5qhqoqy.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.20.9ig5qhqoqy.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.20.9ig5qhqoqy.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/9teiubw8qj.gz",
@@ -5411,6 +5392,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Reflection.Emit.Lightweight.wasm"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/afyr3infnn.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/aj889d5yx3.gz",
@@ -5698,25 +5698,6 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.Numerics.wasm"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/dcwux993vs.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
-    },
-    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/dgs620y2vk.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -5810,6 +5791,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.IO.Pipes.wasm"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/e934ms8dsk.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/ejge34dgvy.gz",
@@ -6382,6 +6382,25 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Net.HttpListener.wasm"
     },
     {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/j15dq4yujh.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
+    },
+    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/j47frzwf0t.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -6456,25 +6475,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Linq.wasm"
-    },
-    {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/jda1f0bsmd.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/jf9yrlkc8y.gz",
@@ -6686,25 +6686,6 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/BlazorAdmin.wasm"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/kgian6uljb.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.19.kgian6uljb.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.19.kgian6uljb.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.19.kgian6uljb.js"
-    },
-    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/kpqowlwvuy.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -6760,6 +6741,44 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.wasm"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/l6fzehf2zq.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/lj2fwpoydc.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/lmvi0pnaok.gz",
@@ -7237,25 +7256,6 @@
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Net.WebHeaderCollection.wasm"
     },
     {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/qxegabz0nq.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
-    },
-    {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/r0oeg0f5cz.gz",
       "SourceId": "BlazorAdmin",
       "SourceType": "Computed",
@@ -7292,6 +7292,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.ComponentModel.Primitives.wasm"
+    },
+    {
+      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/r2w0dujho2.gz",
+      "SourceId": "BlazorAdmin",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/r9q6c3v96d.gz",
@@ -7653,25 +7672,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/System.Formats.Asn1.wasm"
-    },
-    {
-      "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/v44hkfeqsh.gz",
-      "SourceId": "BlazorAdmin",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
     },
     {
       "Identity": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/obj/Debug/net8.0/compressed/vkn2fznqsq.gz",

@@ -9,9 +9,8 @@ public class EmptyBasketOnCheckoutException : Exception
     {
     }
 
-    protected EmptyBasketOnCheckoutException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context) : base(info, context)
-    {
-    }
+    // Note: The formatter-based serialization constructor was removed to avoid SYSLIB0051 (obsolete) warnings.
+    // Modern .NET applications should not use binary formatter-based serialization for exceptions.
 
     public EmptyBasketOnCheckoutException(string message) : base(message)
     {

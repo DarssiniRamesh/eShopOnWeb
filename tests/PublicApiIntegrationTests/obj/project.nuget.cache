@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6Odcw9+hVzMEaxyjFGehr1U3+o4XnrVvE165Zt1LAcjhTvfI2daBkRCLJZblpumELrRYNJ0nJM+kwH390A/zUA==",
+  "dgSpecHash": "g1rjOVwptlQXPdMirsvv92GXvLQ8jWBkjIAkYBs/riQhDrJQpRGXScIMnMGszImDwk9FTq/FZiigcBRCg8lQzw==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj",
   "expectedPackageFiles": [
