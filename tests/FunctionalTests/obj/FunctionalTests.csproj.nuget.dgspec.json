@@ -1047,6 +1047,12 @@
               "version": "[17.9.0, )",
               "versionCentrallyManaged": true
             },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.7.0, )",

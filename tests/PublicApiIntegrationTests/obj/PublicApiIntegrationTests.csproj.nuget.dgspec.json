@@ -1053,8 +1053,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.2, )",
-              "versionCentrallyManaged": true
+              "version": "[6.0.0, )"
             }
           },
           "centralPackageVersions": {
