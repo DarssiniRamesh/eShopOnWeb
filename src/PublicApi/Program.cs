@@ -85,6 +85,9 @@ builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Configuration.AddEnvironmentVariables();
 
+// Register health checks so the PublicApi exposes a /health endpoint for liveness/readiness probes
+builder.Services.AddHealthChecks();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -174,6 +177,9 @@ app.UseSwaggerUI(c =>
 
 app.MapControllers();
 app.MapEndpoints();
+
+// Map the health check endpoint for liveness/readiness probes
+app.MapHealthChecks("/health");
 
 app.Logger.LogInformation("LAUNCHING PublicApi");
 app.Run();
