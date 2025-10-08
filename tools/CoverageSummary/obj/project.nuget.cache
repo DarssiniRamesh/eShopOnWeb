@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oXWBzuaOXGUd4US9CjIuakzcAj7/2LnQk/oeUcQcxAJcYBAU+S73VLPY7bVNWCzjhks2jowuqroGYGk41w+QlA==",
-  "success": false,
+  "dgSpecHash": "OUkYFbK896MpF6AGOKvP+FXw/HFyk5ZMf6QzqKDwtOyHIvkUJTvYHAvLXUb0+05NzEUUCXCXpONmL4kV0/ppPQ==",
+  "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/CoverageSummary.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1010",
-      "level": "Error",
-      "message": "The PackageReference items System.CommandLine do not have corresponding PackageVersion."
-    }
-  ]
+  "expectedPackageFiles": [
+    "/home/kavia/.nuget/packages/system.commandline/2.0.0-beta4.22272.1/system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
 }

@@ -1,0 +1,6 @@
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.csproj.AssemblyReference.cache
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.GeneratedMSBuildEditorConfig.editorconfig
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.AssemblyInfoInputs.cache
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.AssemblyInfo.cs
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.csproj.CoreCompileInputs.cache
+/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/obj/Debug/net8.0/CoverageSummary.sourcelink.json

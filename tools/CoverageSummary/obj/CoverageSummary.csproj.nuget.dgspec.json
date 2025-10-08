@@ -41,7 +41,7 @@
           "dependencies": {
             "System.CommandLine": {
               "target": "Package",
-              "version": "(, )",
+              "version": "[2.0.0-beta4.22272.1, )",
               "versionCentrallyManaged": true
             }
           },
@@ -89,6 +89,7 @@
             "Swashbuckle.AspNetCore": "[6.5.0, )",
             "Swashbuckle.AspNetCore.Annotations": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerUI": "[6.5.0, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
             "System.IdentityModel.Tokens.Jwt": "[7.3.1, )",
             "System.Net.Http.Json": "[8.0.0, )",
             "System.Security.Claims": "[4.3.0, )",
