@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ey7oZskGDhbPqPy6HnR0lqtwFSj1CH+ybnXF8Ani2ZxZ8JbM0Hq3ptgVhIQkNCNIVMkNTqoHSJkpZeACAE2fzg==",
+  "success": false,
+  "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tools/CoverageSummary/CoverageSummary.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: System.CommandLine."
+    }
+  ]
+}
