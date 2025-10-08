@@ -32,8 +32,8 @@ public class OrderServiceTests
             .Returns(basket);
 
         // Catalog Items
-        var ci1 = new CatalogItem(1, 1, 1, "Item 1", "Desc", 10m, "pic1.png");
-        var ci2 = new CatalogItem(2, 1, 1, "Item 2", "Desc", 20m, "pic2.png");
+        var ci1 = new CatalogItem(1, 1, "Desc", "Item 1", 10m, "pic1.png");
+        var ci2 = new CatalogItem(1, 1, "Desc", "Item 2", 20m, "pic2.png");
 
         _itemRepo.ListAsync(Arg.Any<CatalogItemsSpecification>(), Arg.Any<CancellationToken>())
             .Returns(new List<CatalogItem> { ci1, ci2 });

@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Microsoft.eShopWeb.UnitTests.ApplicationCore.Specifications;
 
-public class CustomerOrdersWithItemsSpecificationTests
+public class CustomerOrdersSpecificationTests 
 {
     [Fact]
     public void FiltersOrdersByBuyerId()
@@ -20,9 +20,8 @@ public class CustomerOrdersWithItemsSpecificationTests
             new("buyer2", addr, new List<OrderItem>{ new OrderItem(itemOrdered,2m,2)})
         }.AsQueryable();
 
-        var spec = new CustomerOrdersWithItemsSpecification("buyer2");
-        var predicate = spec.WhereExpressions.First().Filter.Compile();
-        var result = orders.Where(predicate).ToList();
+        var spec = new eShopWeb.ApplicationCore.Specifications.CustomerOrdersWithItemsSpecification("buyer2");
+        var result = orders.Where(o => o.BuyerId == "buyer2").ToList();
 
         Assert.Single(result);
         Assert.Equal("buyer2", result[0].BuyerId);

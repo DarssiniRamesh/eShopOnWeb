@@ -1,86 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="c43de185-0c37-4d15-9f83-0ce9a77cc16f" name="@9813f6a30cac 2025-10-08 17:17:25" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-10-08T17:17:25.0320299+00:00" queuing="2025-10-08T17:17:25.0320300+00:00" start="2025-10-08T17:17:18.5468598+00:00" finish="2025-10-08T17:17:28.8311006+00:00" />
-  <TestSettings name="default" id="eb13f207-2ff4-40a2-92e0-dcc4382f6351">
-    <Deployment runDeploymentRoot="_9813f6a30cac_2025-10-08_17_17_25" />
+<TestRun id="fc842196-26e4-4b5a-846d-aad974af309d" name="@9813f6a30cac 2025-10-08 17:35:57" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-08T17:35:57.3153730+00:00" queuing="2025-10-08T17:35:57.3153730+00:00" start="2025-10-08T17:35:50.6165326+00:00" finish="2025-10-08T17:36:01.0658883+00:00" />
+  <TestSettings name="default" id="a1cf8a4b-5db3-40c9-b8ab-14b79ed316d9">
+    <Deployment runDeploymentRoot="_9813f6a30cac_2025-10-08_17_35_57" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="5dec2b95-b9be-41ad-9af7-48a5512d951f" testId="604a5c0c-17df-a8e8-c65c-4aab62dbe6b9" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.CatalogControllerIndex.ReturnsHomePageWithProductListing" computerName="9813f6a30cac" duration="00:00:00.4132048" startTime="2025-10-08T17:17:28.2535849+00:00" endTime="2025-10-08T17:17:28.2535851+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dec2b95-b9be-41ad-9af7-48a5512d951f" />
-    <UnitTestResult executionId="d5ea1dd0-823c-4617-b703-d2d4cb942b05" testId="9e5c9af2-8351-74e8-4b83-30bfacd453b4" testName="Microsoft.eShopWeb.FunctionalTests.WebRazorPages.HomePageOnGet.ReturnsHomePageWithProductListing" computerName="9813f6a30cac" duration="00:00:02.9597351" startTime="2025-10-08T17:17:24.9927128+00:00" endTime="2025-10-08T17:17:24.9927557+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5ea1dd0-823c-4617-b703-d2d4cb942b05" />
-    <UnitTestResult executionId="f11a9cef-8039-414a-99e9-291a8a313b2a" testId="59a1562e-50a0-4386-281d-ed2f09fc5941" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.RegexMatchesValidRequestVerificationToken" computerName="9813f6a30cac" duration="00:00:00.0007222" startTime="2025-10-08T17:17:27.6268399+00:00" endTime="2025-10-08T17:17:27.6268402+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f11a9cef-8039-414a-99e9-291a8a313b2a" />
-    <UnitTestResult executionId="0fa12595-d351-4d21-bf16-952b7ad083c8" testId="1a1ecd7a-8b92-5318-0d17-ebf03b91ac89" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSuccessfulSignInOnPostWithValidCredentials" computerName="9813f6a30cac" duration="00:00:00.5259319" startTime="2025-10-08T17:17:27.6132588+00:00" endTime="2025-10-08T17:17:27.6132591+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fa12595-d351-4d21-bf16-952b7ad083c8" />
-    <UnitTestResult executionId="53986702-a1d7-42d9-a03b-53f032041576" testId="5af70334-5d1c-d7a6-73a2-b18092e3fcfb" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsFormWithRequestVerificationToken" computerName="9813f6a30cac" duration="00:00:00.0121319" startTime="2025-10-08T17:17:27.6255730+00:00" endTime="2025-10-08T17:17:27.6255733+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53986702-a1d7-42d9-a03b-53f032041576" />
-    <UnitTestResult executionId="54383df8-7a98-493a-8afa-3702e49bcc26" testId="b46badda-fc26-d78c-5888-ff33680c2247" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.CheckoutTest.SucessfullyPay" computerName="9813f6a30cac" duration="00:00:00.7922375" startTime="2025-10-08T17:17:26.5380917+00:00" endTime="2025-10-08T17:17:26.5380918+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54383df8-7a98-493a-8afa-3702e49bcc26" />
-    <UnitTestResult executionId="147262de-14a7-4e2e-9130-48cd4271ca38" testId="dbf5979a-9740-ffad-34e7-16d819910b86" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo0EmptyBasket" computerName="9813f6a30cac" duration="00:00:00.0486988" startTime="2025-10-08T17:17:27.0861229+00:00" endTime="2025-10-08T17:17:27.0861232+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="147262de-14a7-4e2e-9130-48cd4271ca38" />
-    <UnitTestResult executionId="dc129192-c296-4057-bd84-6dacdd7da923" testId="08bfa603-8e90-a38e-7e30-71ab3d80a0f7" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.BasketPageCheckout.RedirectsToLoginIfNotAuthenticated" computerName="9813f6a30cac" duration="00:00:00.7424048" startTime="2025-10-08T17:17:25.7449875+00:00" endTime="2025-10-08T17:17:25.7449876+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc129192-c296-4057-bd84-6dacdd7da923" />
-    <UnitTestResult executionId="9f392b51-6856-469c-a949-f39fe8891f0e" testId="4a1f301b-7e2d-1307-17e4-0c778f66b50f" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.UpdatePhoneNumberProfile" computerName="9813f6a30cac" duration="00:00:00.2046213" startTime="2025-10-08T17:17:27.8393534+00:00" endTime="2025-10-08T17:17:27.8393537+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f392b51-6856-469c-a949-f39fe8891f0e" />
-    <UnitTestResult executionId="ae9d4e0d-07f8-404f-be57-9475a8b42e81" testId="08a107d5-3b33-5430-62f5-2c4ad12d82f0" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSignInScreenOnGet" computerName="9813f6a30cac" duration="00:00:00.0076046" startTime="2025-10-08T17:17:27.6345830+00:00" endTime="2025-10-08T17:17:27.6345831+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae9d4e0d-07f8-404f-be57-9475a8b42e81" />
-    <UnitTestResult executionId="204cdf44-de5c-4937-b6aa-44c2a94e93aa" testId="912f051a-8c8c-e9c6-5204-82834dc474fd" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.OrderIndexOnGet.ReturnsRedirectGivenAnonymousUser" computerName="9813f6a30cac" duration="00:00:00.3556938" startTime="2025-10-08T17:17:28.6102888+00:00" endTime="2025-10-08T17:17:28.6102890+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="204cdf44-de5c-4937-b6aa-44c2a94e93aa" />
-    <UnitTestResult executionId="4a3f3c12-75cc-4802-8ba1-40c05242d08d" testId="7bb7179c-c41a-1517-e1f8-3b3a29ae2922" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo50Successfully" computerName="9813f6a30cac" duration="00:00:00.4977976" startTime="2025-10-08T17:17:27.0372178+00:00" endTime="2025-10-08T17:17:27.0372182+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a3f3c12-75cc-4802-8ba1-40c05242d08d" />
+    <UnitTestResult executionId="3b8fefcc-a795-4f16-9486-0bab7c9d35c0" testId="604a5c0c-17df-a8e8-c65c-4aab62dbe6b9" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.CatalogControllerIndex.ReturnsHomePageWithProductListing" computerName="9813f6a30cac" duration="00:00:00.4118148" startTime="2025-10-08T17:36:00.4830931+00:00" endTime="2025-10-08T17:36:00.4830934+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b8fefcc-a795-4f16-9486-0bab7c9d35c0" />
+    <UnitTestResult executionId="7a4befb9-83e7-43bb-b92b-b35ad76e189f" testId="4a1f301b-7e2d-1307-17e4-0c778f66b50f" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.UpdatePhoneNumberProfile" computerName="9813f6a30cac" duration="00:00:00.2001147" startTime="2025-10-08T17:36:00.0703479+00:00" endTime="2025-10-08T17:36:00.0703482+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a4befb9-83e7-43bb-b92b-b35ad76e189f" />
+    <UnitTestResult executionId="581d18c4-8c76-4a38-8ff6-0701b6ae31d1" testId="08a107d5-3b33-5430-62f5-2c4ad12d82f0" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSignInScreenOnGet" computerName="9813f6a30cac" duration="00:00:00.0073831" startTime="2025-10-08T17:35:59.8700831+00:00" endTime="2025-10-08T17:35:59.8700833+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="581d18c4-8c76-4a38-8ff6-0701b6ae31d1" />
+    <UnitTestResult executionId="160a090d-e1ef-4fa7-9986-849bbee1fbf0" testId="dbf5979a-9740-ffad-34e7-16d819910b86" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo0EmptyBasket" computerName="9813f6a30cac" duration="00:00:00.0424425" startTime="2025-10-08T17:35:59.3148933+00:00" endTime="2025-10-08T17:35:59.3148936+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="160a090d-e1ef-4fa7-9986-849bbee1fbf0" />
+    <UnitTestResult executionId="33c35e98-a901-4378-aec0-9709be1a166e" testId="912f051a-8c8c-e9c6-5204-82834dc474fd" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.OrderIndexOnGet.ReturnsRedirectGivenAnonymousUser" computerName="9813f6a30cac" duration="00:00:00.3522915" startTime="2025-10-08T17:36:00.8362933+00:00" endTime="2025-10-08T17:36:00.8362935+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33c35e98-a901-4378-aec0-9709be1a166e" />
+    <UnitTestResult executionId="a0f36b41-b9f4-4d50-8028-78f638759b8a" testId="59a1562e-50a0-4386-281d-ed2f09fc5941" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.RegexMatchesValidRequestVerificationToken" computerName="9813f6a30cac" duration="00:00:00.0005173" startTime="2025-10-08T17:35:59.8625630+00:00" endTime="2025-10-08T17:35:59.8625631+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0f36b41-b9f4-4d50-8028-78f638759b8a" />
+    <UnitTestResult executionId="406fa58f-6d46-46c7-bf15-7f091cca2755" testId="7bb7179c-c41a-1517-e1f8-3b3a29ae2922" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo50Successfully" computerName="9813f6a30cac" duration="00:00:00.4788601" startTime="2025-10-08T17:35:59.2723079+00:00" endTime="2025-10-08T17:35:59.2723081+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406fa58f-6d46-46c7-bf15-7f091cca2755" />
+    <UnitTestResult executionId="4e8b05f4-6f54-47d1-8f29-fd850c722980" testId="9e5c9af2-8351-74e8-4b83-30bfacd453b4" testName="Microsoft.eShopWeb.FunctionalTests.WebRazorPages.HomePageOnGet.ReturnsHomePageWithProductListing" computerName="9813f6a30cac" duration="00:00:02.8927862" startTime="2025-10-08T17:35:57.2753115+00:00" endTime="2025-10-08T17:35:57.2753833+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e8b05f4-6f54-47d1-8f29-fd850c722980" />
+    <UnitTestResult executionId="aa6e6f94-1664-427a-b507-9116ceae3656" testId="5af70334-5d1c-d7a6-73a2-b18092e3fcfb" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsFormWithRequestVerificationToken" computerName="9813f6a30cac" duration="00:00:00.0107547" startTime="2025-10-08T17:35:59.8616082+00:00" endTime="2025-10-08T17:35:59.8616084+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa6e6f94-1664-427a-b507-9116ceae3656" />
+    <UnitTestResult executionId="4e6f589d-23ec-456b-8453-9c241f1e1c28" testId="1a1ecd7a-8b92-5318-0d17-ebf03b91ac89" testName="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSuccessfulSignInOnPostWithValidCredentials" computerName="9813f6a30cac" duration="00:00:00.5348815" startTime="2025-10-08T17:35:59.8506943+00:00" endTime="2025-10-08T17:35:59.8506946+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e6f589d-23ec-456b-8453-9c241f1e1c28" />
+    <UnitTestResult executionId="8984f7d8-7030-4e13-8fdc-9aa0ba499470" testId="b46badda-fc26-d78c-5888-ff33680c2247" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.CheckoutTest.SucessfullyPay" computerName="9813f6a30cac" duration="00:00:00.7896472" startTime="2025-10-08T17:35:58.7921720+00:00" endTime="2025-10-08T17:35:58.7921723+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8984f7d8-7030-4e13-8fdc-9aa0ba499470" />
+    <UnitTestResult executionId="d8507632-fb6c-4e68-bd2d-a4fdeb6b0bdc" testId="08bfa603-8e90-a38e-7e30-71ab3d80a0f7" testName="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.BasketPageCheckout.RedirectsToLoginIfNotAuthenticated" computerName="9813f6a30cac" duration="00:00:00.7168490" startTime="2025-10-08T17:35:58.0016238+00:00" endTime="2025-10-08T17:35:58.0016240+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8507632-fb6c-4e68-bd2d-a4fdeb6b0bdc" />
   </Results>
   <TestDefinitions>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.CatalogControllerIndex.ReturnsHomePageWithProductListing" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="604a5c0c-17df-a8e8-c65c-4aab62dbe6b9">
-      <Execution id="5dec2b95-b9be-41ad-9af7-48a5512d951f" />
+      <Execution id="3b8fefcc-a795-4f16-9486-0bab7c9d35c0" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.CatalogControllerIndex" name="ReturnsHomePageWithProductListing" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.RegexMatchesValidRequestVerificationToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="59a1562e-50a0-4386-281d-ed2f09fc5941">
-      <Execution id="f11a9cef-8039-414a-99e9-291a8a313b2a" />
+      <Execution id="a0f36b41-b9f4-4d50-8028-78f638759b8a" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn" name="RegexMatchesValidRequestVerificationToken" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsFormWithRequestVerificationToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="5af70334-5d1c-d7a6-73a2-b18092e3fcfb">
-      <Execution id="53986702-a1d7-42d9-a03b-53f032041576" />
+      <Execution id="aa6e6f94-1664-427a-b507-9116ceae3656" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn" name="ReturnsFormWithRequestVerificationToken" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSuccessfulSignInOnPostWithValidCredentials" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="1a1ecd7a-8b92-5318-0d17-ebf03b91ac89">
-      <Execution id="0fa12595-d351-4d21-bf16-952b7ad083c8" />
+      <Execution id="4e6f589d-23ec-456b-8453-9c241f1e1c28" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn" name="ReturnsSuccessfulSignInOnPostWithValidCredentials" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.UpdatePhoneNumberProfile" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="4a1f301b-7e2d-1307-17e4-0c778f66b50f">
-      <Execution id="9f392b51-6856-469c-a949-f39fe8891f0e" />
+      <Execution id="7a4befb9-83e7-43bb-b92b-b35ad76e189f" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn" name="UpdatePhoneNumberProfile" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn.ReturnsSignInScreenOnGet" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="08a107d5-3b33-5430-62f5-2c4ad12d82f0">
-      <Execution id="ae9d4e0d-07f8-404f-be57-9475a8b42e81" />
+      <Execution id="581d18c4-8c76-4a38-8ff6-0701b6ae31d1" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.AccountControllerSignIn" name="ReturnsSignInScreenOnGet" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo50Successfully" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="7bb7179c-c41a-1517-e1f8-3b3a29ae2922">
-      <Execution id="4a3f3c12-75cc-4802-8ba1-40c05242d08d" />
+      <Execution id="406fa58f-6d46-46c7-bf15-7f091cca2755" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest" name="OnPostUpdateTo50Successfully" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.BasketPageCheckout.RedirectsToLoginIfNotAuthenticated" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="08bfa603-8e90-a38e-7e30-71ab3d80a0f7">
-      <Execution id="dc129192-c296-4057-bd84-6dacdd7da923" />
+      <Execution id="d8507632-fb6c-4e68-bd2d-a4fdeb6b0bdc" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.BasketPageCheckout" name="RedirectsToLoginIfNotAuthenticated" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.CheckoutTest.SucessfullyPay" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="b46badda-fc26-d78c-5888-ff33680c2247">
-      <Execution id="54383df8-7a98-493a-8afa-3702e49bcc26" />
+      <Execution id="8984f7d8-7030-4e13-8fdc-9aa0ba499470" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.CheckoutTest" name="SucessfullyPay" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.WebRazorPages.HomePageOnGet.ReturnsHomePageWithProductListing" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="9e5c9af2-8351-74e8-4b83-30bfacd453b4">
-      <Execution id="d5ea1dd0-823c-4617-b703-d2d4cb942b05" />
+      <Execution id="4e8b05f4-6f54-47d1-8f29-fd850c722980" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.WebRazorPages.HomePageOnGet" name="ReturnsHomePageWithProductListing" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest.OnPostUpdateTo0EmptyBasket" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="dbf5979a-9740-ffad-34e7-16d819910b86">
-      <Execution id="147262de-14a7-4e2e-9130-48cd4271ca38" />
+      <Execution id="160a090d-e1ef-4fa7-9986-849bbee1fbf0" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Pages.Basket.IndexTest" name="OnPostUpdateTo0EmptyBasket" />
     </UnitTest>
     <UnitTest name="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.OrderIndexOnGet.ReturnsRedirectGivenAnonymousUser" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/functionaltests/bin/debug/net8.0/functionaltests.dll" id="912f051a-8c8c-e9c6-5204-82834dc474fd">
-      <Execution id="204cdf44-de5c-4937-b6aa-44c2a94e93aa" />
+      <Execution id="33c35e98-a901-4378-aec0-9709be1a166e" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/FunctionalTests/bin/Debug/net8.0/FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Microsoft.eShopWeb.FunctionalTests.Web.Controllers.OrderIndexOnGet" name="ReturnsRedirectGivenAnonymousUser" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="604a5c0c-17df-a8e8-c65c-4aab62dbe6b9" executionId="5dec2b95-b9be-41ad-9af7-48a5512d951f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="9e5c9af2-8351-74e8-4b83-30bfacd453b4" executionId="d5ea1dd0-823c-4617-b703-d2d4cb942b05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="59a1562e-50a0-4386-281d-ed2f09fc5941" executionId="f11a9cef-8039-414a-99e9-291a8a313b2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="1a1ecd7a-8b92-5318-0d17-ebf03b91ac89" executionId="0fa12595-d351-4d21-bf16-952b7ad083c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="5af70334-5d1c-d7a6-73a2-b18092e3fcfb" executionId="53986702-a1d7-42d9-a03b-53f032041576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="b46badda-fc26-d78c-5888-ff33680c2247" executionId="54383df8-7a98-493a-8afa-3702e49bcc26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="dbf5979a-9740-ffad-34e7-16d819910b86" executionId="147262de-14a7-4e2e-9130-48cd4271ca38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="08bfa603-8e90-a38e-7e30-71ab3d80a0f7" executionId="dc129192-c296-4057-bd84-6dacdd7da923" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="4a1f301b-7e2d-1307-17e4-0c778f66b50f" executionId="9f392b51-6856-469c-a949-f39fe8891f0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="08a107d5-3b33-5430-62f5-2c4ad12d82f0" executionId="ae9d4e0d-07f8-404f-be57-9475a8b42e81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="912f051a-8c8c-e9c6-5204-82834dc474fd" executionId="204cdf44-de5c-4937-b6aa-44c2a94e93aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7bb7179c-c41a-1517-e1f8-3b3a29ae2922" executionId="4a3f3c12-75cc-4802-8ba1-40c05242d08d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="604a5c0c-17df-a8e8-c65c-4aab62dbe6b9" executionId="3b8fefcc-a795-4f16-9486-0bab7c9d35c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a1f301b-7e2d-1307-17e4-0c778f66b50f" executionId="7a4befb9-83e7-43bb-b92b-b35ad76e189f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08a107d5-3b33-5430-62f5-2c4ad12d82f0" executionId="581d18c4-8c76-4a38-8ff6-0701b6ae31d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbf5979a-9740-ffad-34e7-16d819910b86" executionId="160a090d-e1ef-4fa7-9986-849bbee1fbf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="912f051a-8c8c-e9c6-5204-82834dc474fd" executionId="33c35e98-a901-4378-aec0-9709be1a166e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59a1562e-50a0-4386-281d-ed2f09fc5941" executionId="a0f36b41-b9f4-4d50-8028-78f638759b8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bb7179c-c41a-1517-e1f8-3b3a29ae2922" executionId="406fa58f-6d46-46c7-bf15-7f091cca2755" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e5c9af2-8351-74e8-4b83-30bfacd453b4" executionId="4e8b05f4-6f54-47d1-8f29-fd850c722980" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5af70334-5d1c-d7a6-73a2-b18092e3fcfb" executionId="aa6e6f94-1664-427a-b507-9116ceae3656" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a1ecd7a-8b92-5318-0d17-ebf03b91ac89" executionId="4e6f589d-23ec-456b-8453-9c241f1e1c28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b46badda-fc26-d78c-5888-ff33680c2247" executionId="8984f7d8-7030-4e13-8fdc-9aa0ba499470" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08bfa603-8e90-a38e-7e30-71ab3d80a0f7" executionId="d8507632-fb6c-4e68-bd2d-a4fdeb6b0bdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -90,17 +90,17 @@
     <Counters total="12" executed="12" passed="12" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.6+bf9b858c26 (64-bit .NET 8.0.20)
-[xUnit.net 00:00:00.19]   Discovering: FunctionalTests
-[xUnit.net 00:00:00.26]   Discovered:  FunctionalTests
-[xUnit.net 00:00:00.27]   Starting:    FunctionalTests
-[xUnit.net 00:00:06.93]   Finished:    FunctionalTests
+[xUnit.net 00:00:00.18]   Discovering: FunctionalTests
+[xUnit.net 00:00:00.25]   Discovered:  FunctionalTests
+[xUnit.net 00:00:00.25]   Starting:    FunctionalTests
+[xUnit.net 00:00:06.79]   Finished:    FunctionalTests
 </StdOut>
     </Output>
     <RunInfos>
-      <RunInfo computerName="9813f6a30cac" outcome="Warning" timestamp="2025-10-08T17:17:21.4702273+00:00">
+      <RunInfo computerName="9813f6a30cac" outcome="Warning" timestamp="2025-10-08T17:35:53.8396270+00:00">
         <Text>Data collection : Unable to find a datacollector with friendly name 'XPlat Code Coverage'.</Text>
       </RunInfo>
-      <RunInfo computerName="9813f6a30cac" outcome="Warning" timestamp="2025-10-08T17:17:21.4722016+00:00">
+      <RunInfo computerName="9813f6a30cac" outcome="Warning" timestamp="2025-10-08T17:35:53.8399346+00:00">
         <Text>Data collection : Could not find data collector 'XPlat Code Coverage'</Text>
       </RunInfo>
     </RunInfos>
@@ -108,7 +108,7 @@
       <Collector agentName="9813f6a30cac" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
         <UriAttachments>
           <UriAttachment>
-            <A href="9813f6a30cac/_9813f6a30cac_2025-10-08.17_17_28.coverage"></A>
+            <A href="9813f6a30cac/_9813f6a30cac_2025-10-08.17_36_00.coverage"></A>
           </UriAttachment>
         </UriAttachments>
       </Collector>
