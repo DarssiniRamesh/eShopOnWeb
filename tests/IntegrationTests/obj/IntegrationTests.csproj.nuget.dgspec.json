@@ -855,7 +855,8 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.2, )",
+              "versionCentrallyManaged": true
             },
             "xunit": {
               "target": "Package",
@@ -1005,7 +1006,8 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.2, )",
+              "versionCentrallyManaged": true
             },
             "xunit": {
               "target": "Package",
