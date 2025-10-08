@@ -12466,6 +12466,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "ApplicationCore >= 1.0.0",
+      "BlazorAdmin >= 1.0.0",
       "BlazorShared >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.9.0",
       "NSubstitute >= 5.1.0",
@@ -12505,6 +12506,9 @@
           "projectReferences": {
             "/home/kavia/workspace/code-generation/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
               "projectPath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
+            },
+            "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj": {
+              "projectPath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj"
             },
             "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
               "projectPath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"

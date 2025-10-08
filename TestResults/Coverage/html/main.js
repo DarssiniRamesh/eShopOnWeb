@@ -360,7 +360,7 @@ var assemblies = [
       { "name": "Microsoft.eShopWeb.PublicApi.ImageValidators", "rp": "PublicApi_ImageValidators.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 24, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Microsoft.eShopWeb.PublicApi.MappingProfile", "rp": "PublicApi_MappingProfile.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Microsoft.eShopWeb.PublicApi.Middleware.ExceptionMiddleware", "rp": "PublicApi_ExceptionMiddleware.html", "cl": 9, "ucl": 24, "cal": 33, "tl": 54, "cb": 8, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Program", "rp": "PublicApi_Program.html", "cl": 118, "ucl": 4, "cal": 122, "tl": 181, "cb": 11, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Program", "rp": "PublicApi_Program.html", "cl": 118, "ucl": 4, "cal": 122, "tl": 187, "cb": 11, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "Web",

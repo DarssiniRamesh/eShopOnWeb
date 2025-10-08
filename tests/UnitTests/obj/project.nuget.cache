@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVQYAn6hPSAUvyoyyeTwUf+OFkH5ogQ/uzlEztK5aLiYn3U29I1FKT6CLeay+1VbKRgBjJfNPJdYC+LBv2TeHg==",
+  "dgSpecHash": "2fEVcMqxkXgae8tUrPJJrxivugHLervrBeegnldxH13NZuHfbKsYQEsW6aRH/kqmH8aotyqLIkTjV1yJq2ExjA==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/UnitTests/UnitTests.csproj",
   "expectedPackageFiles": [

@@ -43,166 +43,45 @@ h1 a.button i { position: relative; top: 1px; }
 
 .card-group { display: flex; flex-wrap: wrap; margin-top: -15px; margin-left: -15px; }
 .card-group + .card-group { margin-top: 0; }
-.card-group .card { margin-top: 15px; margin-left: 15px; display: flex; flex-direction: column; background-color: #e4e4e4; background: radial-gradient(circle, #fefefe 0%, #f6f6f6 100%); border: 1px solid #c1c1c1; padding: 15px; color: #6f6f6f; }
-.card-group .card .card-header { font-size: 1.5rem; font-family: 'Century Gothic', sans-serif; margin-bottom: 15px; flex-grow: 1; }
-.card-group .card .card-body { display: flex; flex-direction: row; gap: 15px; flex-grow: 1; }
-.card-group .card .card-body div.table { display: flex; flex-direction: column; }
-.card-group .card .large { font-size: 5rem; line-height: 5rem; font-weight: bold; align-self: flex-end; border-left-width: 4px; padding-left: 10px; }
-.card-group .card table { align-self: flex-end; border-collapse: collapse; }
-.card-group .card table tr { border-bottom: 1px solid #c1c1c1; }
-.card-group .card table tr:hover { background-color: #c1c1c1; }
-.card-group .card table tr:last-child { border-bottom: none; }
-.card-group .card table th, .card-group .card table td { padding: 2px; }
-.card-group td.limit-width { max-width: 200px; text-overflow: ellipsis; overflow: hidden; }
-.card-group td.overflow-wrap { overflow-wrap: anywhere; }
-
-.pro-button { color: #fff; background-color: #20A0D2; background-image: linear-gradient(50deg, #1c7ed6 0%, #23b8cf 100%); padding: 10px; border-radius: 3px; font-weight: bold; display: inline-block; }
-.pro-button:hover { color: #fff; background-color: #1C8EB7; background-image: linear-gradient(50deg, #1A6FBA 0%, #1EA1B5 100%); }
-.pro-button-tiny { border-radius: 10px; padding: 3px 8px; }
-
-th { text-align: left; }
-.table-fixed { table-layout: fixed; }
-.table-responsive { overflow-x: auto; }
-.table-responsive::-webkit-scrollbar { height: 20px; }
-.table-responsive::-webkit-scrollbar-thumb { background-color: #6f6f6f; border-radius: 20px; border: 5px solid #fff; }
-.overview { border: 1px solid #c1c1c1; border-collapse: collapse; width: 100%; word-wrap: break-word; }
-.overview th { border: 1px solid #c1c1c1; border-collapse: collapse; padding: 5px 4px 5px 4px; background-color: #fff}
-.overview thead th { background-color: #fff; }
-.overview th a { color: #000; }
-.overview tr.namespace a { margin-left: 15px; display: block; }
-.overview td { border: 1px solid #c1c1c1; border-collapse: collapse; padding: 5px 4px 5px 4px; }
-.overview tr.filterbar td { height: 60px; }
-.overview tbody tr:hover>td { background: #f4f4f4 }
-
-div.currenthistory { margin: -6px -5px 0 -5px; padding: 2px 4px 6px 4px; height: 16px; }
-.coverage {
-    border-collapse: collapse;
-    font-size: 5px;
-    height: 10px;
-}
-.coverage td { padding: 0; border: none; }
-
-.customizebox { font-size: 0.75em; margin-bottom: 7px; display: grid; grid-template-columns: 1fr; grid-template-rows: auto auto auto auto; grid-column-gap: 10px; grid-row-gap: 10px; }
-.customizebox>div { align-self: end; }
-.customizebox div.col-right input { width: 150px; }
-
-@media screen and (min-width: 1000px) {
-  .customizebox { grid-template-columns: repeat(4, 1fr); grid-template-rows: 1fr; }
-  .customizebox div.col-center { justify-self: center; }
-  .customizebox div.col-right { justify-self: end; text-align: right; }
-}
-.slider-label { position: relative; left: 85px; }
-
-.percentagebar {
-    padding-left: 3px;
-}
-a.percentagebar {
-    padding-left: 6px;
-}
-.percentagebarundefined {
-    border-left: 2px solid #fff;
-}
-.percentagebar0 {
-    border-left: 2px solid #DA0A00;
-}
-.percentagebar10 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 90%, #107C10 90%, #107C10 100%) 1;
-}
-.percentagebar20 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 80%, #107C10 80%, #107C10 100%) 1;
-}
-.percentagebar30 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 70%, #107C10 70%, #107C10 100%) 1;
-}
-.percentagebar40 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 60%, #107C10 60%, #107C10 100%) 1;
-}
-.percentagebar50 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 50%, #107C10 50%, #107C10 100%) 1;
-}
-.percentagebar60 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 40%, #107C10 40%, #107C10 100%) 1;
-}
-.percentagebar70 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 30%, #107C10 30%, #107C10 100%) 1;
-}
-.percentagebar80 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 20%, #107C10 20%, #107C10 100%) 1;
-}
-.percentagebar90 {
-    border-left: 2px solid;
-    border-image: linear-gradient(to bottom, #DA0A00 10%, #107C10 10%, #107C10 100%) 1;
-}
-.percentagebar100 {
-    border-left: 2px solid #107C10;
-}
-
-.mt-1 { margin-top: 4px; }
-.hidden, .ng-hide { display: none; }
-.right { text-align: right; }
-.center { text-align: center; }
-.rightmargin  { padding-right: 8px; }
-.leftmargin { padding-left: 5px; }
-.green { background-color: #107C10; }
-.lightgreen { background-color: #dcf4dc; }
-.red { background-color: #DA0A00; }
-.lightred { background-color: #f7dede; }
-.orange { background-color: #FFA500; }
-.lightorange { background-color: #FFEFD5; }
-.gray { background-color: #dcdcdc; }
-.lightgray { color: #888888; }
-.lightgraybg { background-color: #dadada; }
-
-.toggleZoom { text-align:right; }
-
-.historychart svg { max-width: 100%; }
-.ct-chart { position: relative; }
-.ct-chart .ct-line { stroke-width: 2px !important; }
-.ct-chart .ct-point { stroke-width: 6px !important; transition: stroke-width .2s; }
-.ct-chart .ct-point:hover { stroke-width: 10px !important; }
-.ct-chart .ct-series.ct-series-a .ct-line, .ct-chart .ct-series.ct-series-a .ct-point { stroke: #0078D4 !important;}
-.ct-chart .ct-series.ct-series-b .ct-line, .ct-chart .ct-series.ct-series-b .ct-point { stroke: #1c2298 !important;}
-.ct-chart .ct-series.ct-series-c .ct-line, .ct-chart .ct-series.ct-series-c .ct-point { stroke: #0aad0a !important;}
-.ct-chart .ct-series.ct-series-d .ct-line, .ct-chart .ct-series.ct-series-d .ct-point { stroke: #FF6A00 !important;}
-
-.tinylinecoveragechart, .tinybranchcoveragechart, .tinymethodcoveragechart, .tinyfullmethodcoveragechart { background-color: #fff; margin-left: -3px; float: left; border: 1px solid #c1c1c1; width: 30px; height: 18px; }
-.historiccoverageoffset { margin-top: 7px; }
-
-.tinylinecoveragechart .ct-line, .tinybranchcoveragechart .ct-line, .tinymethodcoveragechart .ct-line, .tinyfullmethodcoveragechart .ct-line { stroke-width: 1px !important; }
-.tinybranchcoveragechart .ct-series.ct-series-a .ct-line { stroke: #1c2298 !important; }
-.tinymethodcoveragechart .ct-series.ct-series-a .ct-line { stroke: #0aad0a !important; }
-.tinyfullmethodcoveragechart .ct-series.ct-series-a .ct-line { stroke: #FF6A00 !important; }
-
-.linecoverage { background-color: #0078D4; width: 10px; height: 8px; border: 1px solid #000; display: inline-block; }
-.branchcoverage { background-color: #1c2298; width: 10px; height: 8px; border: 1px solid #000; display: inline-block; }
-.codeelementcoverage { background-color: #0aad0a; width: 10px; height: 8px; border: 1px solid #000; display: inline-block; }
-.fullcodeelementcoverage { background-color: #FF6A00; width: 10px; height: 8px; border: 1px solid #000; display: inline-block; }
-
-.tooltip { position: absolute; display: none; padding: 5px; background: #F4C63D; color: #453D3F; pointer-events: none; z-index: 1; min-width: 250px; }
-
-.column-min-200 { min-width: 200px; }
-.column70 { width: 70px; }
-.column90 { width: 90px; }
-.column98 { width: 98px; }
-.column100 { width: 100px; }
-.column105 { width: 105px; }
-.column112 { width: 112px; }
-
-.cardpercentagebar { border-left-style: solid; }
-.cardpercentagebar0 { border-image: linear-gradient(to bottom, #c10909 0%, #c10909 0%, #0aad0a 0%) 1; }
-.cardpercentagebar1 { border-image: linear-gradient(to bottom, #c10909 1%, #c10909 1%, #0aad0a 1%) 1; }
-.cardpercentagebar2 { border-image: linear-gradient(to bottom, #c10909 2%, #c10909 2%, #0aad0a 2%) 1; }
-.cardpercentagebar3 { border-image: linear-gradient(to bottom, #c10909 3%, #c10909 3%, #0aad0a 3%) 1; }
-.cardpercentagebar4 { border-image: linear-gradient(to bottom, #c10909 4%, #c10909 4%, #0aad0a 4%) 1; }
-.cardpercentagebar5 { border-image: linear-gradient(to bottom, #c10909 5%, #cclass="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line17"></a><code>17</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;TwoFactorAuthentication&nbsp;=&gt;&nbsp;&quot;TwoFactorAuthentication&quot;;</code></td></tr>
+.card-group .card { margin-top: 15px; margin-left: 15px; display: flex; flex-direction: column; background-color: #e4e4e4; background: radial-gradient(circle, #fefefe 0%, #f6f6f6 100%); border: 1px solid #c1c1c1; padding: 1></thead>
+<tbody>
+<tr><td title="get_ActivePageKey()"><a href="#file0_line9" class="navigatetohash">get_ActivePageKey()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_Index()"><a href="#file0_line11" class="navigatetohash">get_Index()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_ChangePassword()"><a href="#file0_line13" class="navigatetohash">get_ChangePassword()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_ExternalLogins()"><a href="#file0_line15" class="navigatetohash">get_ExternalLogins()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_TwoFactorAuthentication()"><a href="#file0_line17" class="navigatetohash">get_TwoFactorAuthentication()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="IndexNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)"><a href="#file0_line19" class="navigatetohash">IndexNavClass(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="ChangePasswordNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)"><a href="#file0_line21" class="navigatetohash">ChangePasswordNavClass(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="ExternalLoginsNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)"><a href="#file0_line23" class="navigatetohash">ExternalLoginsNavClass(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="TwoFactorAuthenticationNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)"><a href="#file0_line25" class="navigatetohash">TwoFactorAuthenticationNavClass(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="PageNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String)"><a href="#file0_line28" class="navigatetohash">PageNavClass(...)</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
+<tr><td title="AddActivePage(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)"><a href="#file0_line33" class="navigatetohash">AddActivePage(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+</tbody>
+</table>
+</div>
+<h1>File(s)</h1>
+<h2 id="homekaviaworkspacecodegenerationeShopOnWebsrcWebViewsManageManageNavPagescs">/home/kavia/workspace/code-generation/eShopOnWeb/src/Web/Views/Manage/ManageNavPages.cs</h2>
+<div class="table-responsive">
+<table class="lineAnalysis">
+<thead><tr><th></th><th>#</th><th>Line</th><th></th><th>Line coverage</th></tr></thead>
+<tbody>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1"></a><code>1</code></td><td></td><td class="lightgray"><code>using&nbsp;System;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line2"></a><code>2</code></td><td></td><td class="lightgray"><code>using&nbsp;Microsoft.AspNetCore.Mvc.Rendering;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line3"></a><code>3</code></td><td></td><td class="lightgray"><code>using&nbsp;Microsoft.AspNetCore.Mvc.ViewFeatures;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line4"></a><code>4</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line5"></a><code>5</code></td><td></td><td class="lightgray"><code>namespace&nbsp;Microsoft.eShopWeb.Web.Views.Manage;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line6"></a><code>6</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line7"></a><code>7</code></td><td></td><td class="lightgray"><code>public&nbsp;static&nbsp;class&nbsp;ManageNavPages</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line8"></a><code>8</code></td><td></td><td class="lightgray"><code>{</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line9"></a><code>9</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;ActivePageKey&nbsp;=&gt;&nbsp;&quot;ActivePage&quot;;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line10"></a><code>10</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line11"></a><code>11</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;Index&nbsp;=&gt;&nbsp;&quot;Index&quot;;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line12"></a><code>12</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line13"></a><code>13</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;ChangePassword&nbsp;=&gt;&nbsp;&quot;ChangePassword&quot;;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line14"></a><code>14</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line15"></a><code>15</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;ExternalLogins&nbsp;=&gt;&nbsp;&quot;ExternalLogins&quot;;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line16"></a><code>16</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line17"></a><code>17</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;TwoFactorAuthentication&nbsp;=&gt;&nbsp;&quot;TwoFactorAuthentication&quot;;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line18"></a><code>18</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line19"></a><code>19</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;string&nbsp;IndexNavClass(ViewContext&nbsp;viewContext)&nbsp;=&gt;&nbsp;PageNavClass(viewContext,&nbsp;Index);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line20"></a><code>20</code></td><td></td><td class="lightgray"><code></code></td></tr>
@@ -223,7 +102,7 @@ a.percentagebar {
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 6:29:20 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 7:08:26 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
@@ -753,7 +632,7 @@ a.percentagebar {
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 6:29:20 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 7:08:26 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

@@ -43,32 +43,91 @@ h1 a.button i { position: relative; top: 1px; }
 
 .card-group { display: flex; flex-wrap: wrap; margin-top: -15px; margin-left: -15px; }
 .card-group + .card-group { margin-top: 0; }
-.card-group .card { margin-top: 15px; margin-left: 15px; display: flex; flex-direction: column; background-color: #e4e4e4; background: radial-gradient(circle, #fefefe 0%, #f6f6f6 100%); border: 1px solid #c1c1c1; padding: 15px; color:/tr></thead>
-<tbody>
-<tr><td title=".ctor(BlazorShared.Interfaces.ICatalogLookupDataService`1&lt;BlazorShared.Models.CatalogBrand&gt;,BlazorShared.Interfaces.ICatalogLookupDataService`1&lt;BlazorShared.Models.CatalogType&gt;,BlazorAdmin.Services.HttpService,Microsoft.Extensions.Logging.ILogger`1&lt;BlazorAdmin.Services.CatalogItemService&gt;)"><a href="#file0_line18" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
-<tr><td title="Create()"><a href="#file0_line30" class="navigatetohash">Create()</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
-<tr><td title="Edit()"><a href="#file0_line36" class="navigatetohash">Edit()</a></td><td>0%</td><td>20</td><td>4</td><td>0%</td></tr>
-<tr><td title="Delete()"><a href="#file0_line41" class="navigatetohash">Delete()</a></td><td>0%</td><td>20</td><td>4</td><td>0%</td></tr>
-<tr><td title="GetById()"><a href="#file0_line46" class="navigatetohash">GetById()</a></td><td>0%</td><td>72</td><td>8</td><td>0%</td></tr>
-<tr><td title="ListPaged()"><a href="#file0_line60" class="navigatetohash">ListPaged()</a></td><td>0%</td><td>110</td><td>10</td><td>0%</td></tr>
-<tr><td title="List()"><a href="#file0_line79" class="navigatetohash">List()</a></td><td>0%</td><td>110</td><td>10</td><td>0%</td></tr>
-</tbody>
-</table>
-</div>
-<h1>File(s)</h1>
-<h2 id="homekaviaworkspacecodegenerationeShopOnWebsrcBlazorAdminServicesCatalogItemServicecs">/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/Services/CatalogItemService.cs</h2>
-<div class="table-responsive">
-<table class="lineAnalysis">
-<thead><tr><th></th><th>#</th><th>Line</th><th></th><th>Line coverage</th></tr></thead>
-<tbody>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1"></a><code>1</code></td><td></td><td class="lightgray"><code>using&nbsp;System.Collections.Generic;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line2"></a><code>2</code></td><td></td><td class="lightgray"><code>using&nbsp;System.Linq;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line3"></a><code>3</code></td><td></td><td class="lightgray"><code>using&nbsp;System.Threading.Tasks;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line4"></a><code>4</code></td><td></td><td class="lightgray"><code>using&nbsp;BlazorShared.Interfaces;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line5"></a><code>5</code></td><td></td><td class="lightgray"><code>using&nbsp;BlazorShared.Models;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line6"></a><code>6</code></td><td></td><td class="lightgray"><code>using&nbsp;Microsoft.Extensions.Logging;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line7"></a><code>7</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line8"></a><code>8</code></td><td></td><td class="lightgray"><code></code></td></tr>
+.card-group .card { margin-top: 15px; margin-left: 15px; display: flex; flex-direction: column; background-color: #e4e4e4; background: radial-gradient(circle, #fefefe 0%, #f6f6f6 100%); border: 1px solid #c1c1c1; padding: 15px; color: #6f6f6f; }
+.card-group .card .card-header { font-size: 1.5rem; font-family: 'Century Gothic', sans-serif; margin-bottom: 15px; flex-grow: 1; }
+.card-group .card .card-body { display: flex; flex-direction: row; gap: 15px; flex-grow: 1; }
+.card-group .card .card-body div.table { display: flex; flex-direction: column; }
+.card-group .card .large { font-size: 5rem; line-height: 5rem; font-weight: bold; align-self: flex-end; border-left-width: 4px; padding-left: 10px; }
+.card-group .card table { align-self: flex-end; border-collapse: collapse; }
+.card-group .card table tr { border-bottom: 1px solid #c1c1c1; }
+.card-group .card table tr:hover { background-color: #c1c1c1; }
+.card-group .card table tr:last-child { border-bottom: none; }
+.card-group .card table th, .card-group .card table td { padding: 2px; }
+.card-group td.limit-width { max-width: 200px; text-overflow: ellipsis; overflow: hidden; }
+.card-group td.overflow-wrap { overflow-wrap: anywhere; }
+
+.pro-button { color: #fff; background-color: #20A0D2; background-image: linear-gradient(50deg, #1c7ed6 0%, #23b8cf 100%); padding: 10px; border-radius: 3px; font-weight: bold; display: inline-block; }
+.pro-button:hover { color: #fff; background-color: #1C8EB7; background-image: linear-gradient(50deg, #1A6FBA 0%, #1EA1B5 100%); }
+.pro-button-tiny { border-radius: 10px; padding: 3px 8px; }
+
+th { text-align: left; }
+.table-fixed { table-layout: fixed; }
+.table-responsive { overflow-x: auto; }
+.table-responsive::-webkit-scrollbar { height: 20px; }
+.table-responsive::-webkit-scrollbar-thumb { background-color: #6f6f6f; border-radius: 20px; border: 5px solid #fff; }
+.overview { border: 1px solid #c1c1c1; border-collapse: collapse; width: 100%; word-wrap: break-word; }
+.overview th { border: 1px solid #c1c1c1; border-collapse: collapse; padding: 5px 4px 5px 4px; background-color: #fff}
+.overview thead th { background-color: #fff; }
+.overview th a { color: #000; }
+.overview tr.namespace a { margin-left: 15px; display: block; }
+.overview td { border: 1px solid #c1c1c1; border-collapse: collapse; padding: 5px 4px 5px 4px; }
+.overview tr.filterbar td { height: 60px; }
+.overview tbody tr:hover>td { background: #f4f4f4 }
+
+div.currenthistory { margin: -6px -5px 0 -5px; padding: 2px 4px 6px 4px; height: 16px; }
+.coverage {
+    border-collapse: collapse;
+    font-size: 5px;
+    height: 10px;
+}
+.coverage td { padding: 0; border: none; }
+
+.customizebox { font-size: 0.75em; margin-bottom: 7px; display: grid; grid-template-columns: 1fr; grid-template-rows: auto auto auto auto; grid-column-gap: 10px; grid-row-gap: 10px; }
+.customizebox>div { align-self: end; }
+.customizebox div.col-right input { width: 150px; }
+
+@media screen and (min-width: 1000px) {
+  .customizebox { grid-template-columns: repeat(4, 1fr); grid-template-rows: 1fr; }
+  .customizebox div.col-center { justify-self: center; }
+  .customizebox div.col-right { justify-self: end; text-align: right; }
+}
+.slider-label { position: relative; left: 85px; }
+
+.percentagebar {
+    padding-left: 3px;
+}
+a.percentagebar {
+    padding-left: 6px;
+}
+.percentagebarundefined {
+    border-left: 2px solid #fff;
+}
+.percentagebar0 {
+    border-left: 2px solid #DA0A00;
+}
+.percentagebar10 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 90%, #107C10 90%, #107C10 100%) 1;
+}
+.percentagebar20 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 80%, #107C10 80%, #107C10 100%) 1;
+}
+.percentagebar30 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 70%, #107C10 70%, #107C10 100%) 1;
+}
+.percentagebar40 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 60%, #107C10 60%, #107C10 100%) 1;
+}
+.percentagebar50 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 50%, #107C10 50%, #107C10 100%) 1;
+}
+.percentagebar60 {
+    border-left: 2px solid;
+    border-image: linear-gradient(to bottom, #DA0A00 40%, #107C10 40%, #107C10 100%) 1;nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line8"></a><code>8</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line9"></a><code>9</code></td><td></td><td class="lightgray"><code>namespace&nbsp;BlazorAdmin.Services;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line10"></a><code>10</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line11"></a><code>11</code></td><td></td><td class="lightgray"><code>public&nbsp;class&nbsp;CatalogItemService&nbsp;:&nbsp;ICatalogItemService</code></td></tr>
@@ -160,7 +219,7 @@ h1 a.button i { position: relative; top: 1px; }
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 6:29:20 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 7:08:26 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
@@ -451,7 +510,7 @@ h1 a.button i { position: relative; top: 1px; }
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 6:29:20 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.4.17.0<br />10/8/2025 - 7:08:26 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
