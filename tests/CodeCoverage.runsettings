@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat Code Coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <IncludeTestAssembly>false</IncludeTestAssembly>
+          <ExcludeByAttribute>ExcludeFromCodeCoverage,GeneratedCodeAttribute,CompilerGeneratedAttribute</ExcludeByAttribute>
+          <Exclude>
+            <!-- Exclude migrations and generated files -->
+            <ModulePath>.*Migrations.*</ModulePath>
+            <ModulePath>.*\.g\.dll$</ModulePath>
+          </Exclude>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

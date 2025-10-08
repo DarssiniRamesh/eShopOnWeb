@@ -44,9 +44,14 @@ Aggregated coverage based on available reports.
 - Integrate coverage thresholds into CI to prevent regressions (e.g., fail when line coverage drops below a defined baseline).
 
 ## How to Reproduce Locally
-- Run tests with coverage (example for dotnet test with coverlet and Cobertura output):
+- Run tests with coverage using the provided runsettings (recommended):
 ```bash
 # From the eShopOnWeb folder
+dotnet test --settings tests/CodeCoverage.runsettings --logger "trx;LogFileName=TestResults/Coverage/test_results.trx"
+```
+
+- Alternatively, run with inline settings (Cobertura output):
+```bash
 dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura --logger "trx;LogFileName=TestResults/Coverage/test_results.trx"
 ```
 
