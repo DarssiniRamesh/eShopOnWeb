@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bd138cf1-bcc1-4608-b267-b870d96430dd" name="@9813f6a30cac 2025-10-08 16:48:36" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-08T16:48:36.5295660+00:00" queuing="2025-10-08T16:48:36.5295660+00:00" start="2025-10-08T16:48:22.9852832+00:00" finish="2025-10-08T16:48:40.7654464+00:00" />
+  <TestSettings name="default" id="55f0a5fb-e9d1-4a32-9110-aca96d2db4a4">
+    <Deployment runDeploymentRoot="_9813f6a30cac_2025-10-08_16_48_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="14e55554-acf4-4a19-90c1-561baa40c6fc" testId="fb3f5cc9-b069-a5b1-12d7-700c05fd87d3" testName="SuccessFullMutipleParallelCall (catalog-items)" computerName="9813f6a30cac" duration="00:00:01.0154564" startTime="2025-10-08T16:48:38.7938385+00:00" endTime="2025-10-08T16:48:39.8114331+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14e55554-acf4-4a19-90c1-561baa40c6fc" />
+    <UnitTestResult executionId="36ffb383-aedf-4012-a7cd-9763fede0f7d" testId="ad2c30af-f8f4-e7c0-2745-25e3104157dd" testName="ReturnsNotFoundGivenInvalidIdAndAdminUserToken" computerName="9813f6a30cac" duration="00:00:00.0036479" startTime="2025-10-08T16:48:39.9704991+00:00" endTime="2025-10-08T16:48:39.9743310+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36ffb383-aedf-4012-a7cd-9763fede0f7d" />
+    <UnitTestResult executionId="ee8431c9-ddd0-46d1-8f6c-f5af07b6364f" testId="ff62d435-3fb5-b7e3-b45c-643e432b8b4f" testName="ReturnsCorrectCatalogItemsGivenPageIndex1" computerName="9813f6a30cac" duration="00:00:02.0184325" startTime="2025-10-08T16:48:36.7738514+00:00" endTime="2025-10-08T16:48:38.7925721+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee8431c9-ddd0-46d1-8f6c-f5af07b6364f" />
+    <UnitTestResult executionId="391dce27-aa6c-43c5-8f12-5452248940b1" testId="e66b1255-feac-8044-34fe-38bcae5bd7d0" testName="ReturnsExpectedResultGivenCredentials (demouser@microsoft.com,badpassword,False)" computerName="9813f6a30cac" duration="00:00:00.0980375" startTime="2025-10-08T16:48:40.1767824+00:00" endTime="2025-10-08T16:48:40.2751361+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="391dce27-aa6c-43c5-8f12-5452248940b1" />
+    <UnitTestResult executionId="48d7238e-4fc2-498c-a95b-c5f8ff3030cc" testId="eed56cb9-9293-5cc9-98aa-5b855e1a9c87" testName="SuccessFullMutipleParallelCall (catalog-types)" computerName="9813f6a30cac" duration="00:00:00.0151415" startTime="2025-10-08T16:48:39.8546219+00:00" endTime="2025-10-08T16:48:39.8700308+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48d7238e-4fc2-498c-a95b-c5f8ff3030cc" />
+    <UnitTestResult executionId="3cc8df6b-039d-443e-ad7e-a0dd1a202802" testId="41d3de90-f69a-6e8f-8312-a524ede5674b" testName="ReturnsItemGivenValidId" computerName="9813f6a30cac" duration="00:00:02.0185265" startTime="2025-10-08T16:48:33.6533427+00:00" endTime="2025-10-08T16:48:35.6879466+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cc8df6b-039d-443e-ad7e-a0dd1a202802">
+      <Output>
+        <StdOut>\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: PublicApi[0]
+      PublicApi App created...
+\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: PublicApi[0]
+      Seeding Database...
+\u001b[40m\u001b[32minfo\u001b[39m\u001b[22m\u001b[49m: PublicApi[0]
+      LAUNCHING PublicApi
+\u001b[40m\u001b[1m\u001b[33mwarn\u001b[39m\u001b[22m\u001b[49m: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9618c42d-33de-4b7d-9885-23a4ec351aae" testId="894ef567-b10c-2379-a595-9743a7650063" testName="ReturnsNotAuthorizedGivenNormalUserToken" computerName="9813f6a30cac" duration="00:00:00.0075674" startTime="2025-10-08T16:48:40.2937308+00:00" endTime="2025-10-08T16:48:40.3016332+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9618c42d-33de-4b7d-9885-23a4ec351aae" />
+    <UnitTestResult executionId="c10f9ca4-6432-41b9-a845-859027150f6b" testId="01ea37a3-3283-9512-3049-97eca2904cc4" testName="ReturnsNotFoundGivenInvalidId" computerName="9813f6a30cac" duration="00:00:00.0061023" startTime="2025-10-08T16:48:35.7001403+00:00" endTime="2025-10-08T16:48:35.7066156+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c10f9ca4-6432-41b9-a845-859027150f6b" />
+    <UnitTestResult executionId="a5ffd46b-bfa5-40a8-96d0-691f24c8b9d1" testId="90b22ba8-f69e-bb6c-86f8-37849c5f2322" testName="ReturnsFirst10CatalogItems" computerName="9813f6a30cac" duration="00:00:01.0644707" startTime="2025-10-08T16:48:35.7079259+00:00" endTime="2025-10-08T16:48:36.7726855+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5ffd46b-bfa5-40a8-96d0-691f24c8b9d1" />
+    <UnitTestResult executionId="ec1ac779-240f-4c82-a2ba-53425a64a817" testId="2b303cc4-501c-227d-19d8-f08402e33924" testName="SuccessFullMutipleParallelCall (catalog-brands)" computerName="9813f6a30cac" duration="00:00:00.0418283" startTime="2025-10-08T16:48:39.8119034+00:00" endTime="2025-10-08T16:48:39.8540062+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec1ac779-240f-4c82-a2ba-53425a64a817" />
+    <UnitTestResult executionId="4e767cee-3404-43e0-a498-831a43ac4008" testId="575b1365-bafe-2d9a-f3bd-9ca493c726d4" testName="ReturnsSuccessGivenValidIdAndAdminUserToken" computerName="9813f6a30cac" duration="00:00:00.0897561" startTime="2025-10-08T16:48:39.8798402+00:00" endTime="2025-10-08T16:48:39.9701108+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e767cee-3404-43e0-a498-831a43ac4008" />
+    <UnitTestResult executionId="9d5c1af4-63ff-44be-af6f-2dcfc5755a98" testId="a3a56bc1-fd1f-e735-f935-80363a79eeca" testName="ReturnsSuccessGivenValidNewItemAndAdminUserToken" computerName="9813f6a30cac" duration="00:00:00.0265024" startTime="2025-10-08T16:48:40.3020061+00:00" endTime="2025-10-08T16:48:40.3299192+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d5c1af4-63ff-44be-af6f-2dcfc5755a98" />
+    <UnitTestResult executionId="b3b6e380-aec7-416b-8b36-7f8222d3c3b9" testId="3719732c-4cba-1550-cbe0-43c3f496d630" testName="ReturnsExpectedResultGivenCredentials (baduser@microsoft.com,badpassword,False)" computerName="9813f6a30cac" duration="00:00:00.0161581" startTime="2025-10-08T16:48:40.2756321+00:00" endTime="2025-10-08T16:48:40.2921347+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3b6e380-aec7-416b-8b36-7f8222d3c3b9" />
+    <UnitTestResult executionId="453f58c0-5006-42dc-ba1f-3d4d84a9337f" testId="99395af2-75b0-ae64-1ce1-cc72f42c0d9b" testName="SuccessFullMutipleParallelCall (catalog-items/1)" computerName="9813f6a30cac" duration="00:00:00.0086588" startTime="2025-10-08T16:48:39.8704675+00:00" endTime="2025-10-08T16:48:39.8795024+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="453f58c0-5006-42dc-ba1f-3d4d84a9337f" />
+    <UnitTestResult executionId="4334ae2f-0b31-4bf9-8467-5a83663762d4" testId="5ebf6ba7-785b-7676-9db9-6f063b44e567" testName="ReturnsExpectedResultGivenCredentials (demouser@microsoft.com,Pass@word1,True)" computerName="9813f6a30cac" duration="00:00:00.1934558" startTime="2025-10-08T16:48:39.9746716+00:00" endTime="2025-10-08T16:48:40.1686210+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4334ae2f-0b31-4bf9-8467-5a83663762d4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ReturnsNotFoundGivenInvalidIdAndAdminUserToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="ad2c30af-f8f4-e7c0-2745-25e3104157dd">
+      <Execution id="36ffb383-aedf-4012-a7cd-9763fede0f7d" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.DeleteCatalogItemEndpointTest" name="ReturnsNotFoundGivenInvalidIdAndAdminUserToken" />
+    </UnitTest>
+    <UnitTest name="SuccessFullMutipleParallelCall (catalog-items/1)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="99395af2-75b0-ae64-1ce1-cc72f42c0d9b">
+      <Execution id="453f58c0-5006-42dc-ba1f-3d4d84a9337f" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="SuccessFullMutipleParallelCall" />
+    </UnitTest>
+    <UnitTest name="ReturnsCorrectCatalogItemsGivenPageIndex1" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="ff62d435-3fb5-b7e3-b45c-643e432b8b4f">
+      <Execution id="ee8431c9-ddd0-46d1-8f6c-f5af07b6364f" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="ReturnsCorrectCatalogItemsGivenPageIndex1" />
+    </UnitTest>
+    <UnitTest name="ReturnsItemGivenValidId" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="41d3de90-f69a-6e8f-8312-a524ede5674b">
+      <Execution id="3cc8df6b-039d-443e-ad7e-a0dd1a202802" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemGetByIdEndpointTest" name="ReturnsItemGivenValidId" />
+    </UnitTest>
+    <UnitTest name="ReturnsExpectedResultGivenCredentials (baduser@microsoft.com,badpassword,False)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="3719732c-4cba-1550-cbe0-43c3f496d630">
+      <Execution id="b3b6e380-aec7-416b-8b36-7f8222d3c3b9" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.AuthEndpoints.AuthenticateEndpoint" name="ReturnsExpectedResultGivenCredentials" />
+    </UnitTest>
+    <UnitTest name="ReturnsFirst10CatalogItems" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="90b22ba8-f69e-bb6c-86f8-37849c5f2322">
+      <Execution id="a5ffd46b-bfa5-40a8-96d0-691f24c8b9d1" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="ReturnsFirst10CatalogItems" />
+    </UnitTest>
+    <UnitTest name="ReturnsSuccessGivenValidIdAndAdminUserToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="575b1365-bafe-2d9a-f3bd-9ca493c726d4">
+      <Execution id="4e767cee-3404-43e0-a498-831a43ac4008" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.DeleteCatalogItemEndpointTest" name="ReturnsSuccessGivenValidIdAndAdminUserToken" />
+    </UnitTest>
+    <UnitTest name="SuccessFullMutipleParallelCall (catalog-brands)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="2b303cc4-501c-227d-19d8-f08402e33924">
+      <Execution id="ec1ac779-240f-4c82-a2ba-53425a64a817" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="SuccessFullMutipleParallelCall" />
+    </UnitTest>
+    <UnitTest name="ReturnsExpectedResultGivenCredentials (demouser@microsoft.com,badpassword,False)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="e66b1255-feac-8044-34fe-38bcae5bd7d0">
+      <Execution id="391dce27-aa6c-43c5-8f12-5452248940b1" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.AuthEndpoints.AuthenticateEndpoint" name="ReturnsExpectedResultGivenCredentials" />
+    </UnitTest>
+    <UnitTest name="ReturnsNotAuthorizedGivenNormalUserToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="894ef567-b10c-2379-a595-9743a7650063">
+      <Execution id="9618c42d-33de-4b7d-9885-23a4ec351aae" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.AuthEndpoints.CreateCatalogItemEndpointTest" name="ReturnsNotAuthorizedGivenNormalUserToken" />
+    </UnitTest>
+    <UnitTest name="SuccessFullMutipleParallelCall (catalog-types)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="eed56cb9-9293-5cc9-98aa-5b855e1a9c87">
+      <Execution id="48d7238e-4fc2-498c-a95b-c5f8ff3030cc" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="SuccessFullMutipleParallelCall" />
+    </UnitTest>
+    <UnitTest name="ReturnsNotFoundGivenInvalidId" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="01ea37a3-3283-9512-3049-97eca2904cc4">
+      <Execution id="c10f9ca4-6432-41b9-a845-859027150f6b" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemGetByIdEndpointTest" name="ReturnsNotFoundGivenInvalidId" />
+    </UnitTest>
+    <UnitTest name="SuccessFullMutipleParallelCall (catalog-items)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="fb3f5cc9-b069-a5b1-12d7-700c05fd87d3">
+      <Execution id="14e55554-acf4-4a19-90c1-561baa40c6fc" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.CatalogItemEndpoints.CatalogItemListPagedEndpoint" name="SuccessFullMutipleParallelCall" />
+    </UnitTest>
+    <UnitTest name="ReturnsExpectedResultGivenCredentials (demouser@microsoft.com,Pass@word1,True)" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="5ebf6ba7-785b-7676-9db9-6f063b44e567">
+      <Execution id="4334ae2f-0b31-4bf9-8467-5a83663762d4" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.AuthEndpoints.AuthenticateEndpoint" name="ReturnsExpectedResultGivenCredentials" />
+    </UnitTest>
+    <UnitTest name="ReturnsSuccessGivenValidNewItemAndAdminUserToken" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/publicapiintegrationtests/bin/debug/net8.0/publicapiintegrationtests.dll" id="a3a56bc1-fd1f-e735-f935-80363a79eeca">
+      <Execution id="9d5c1af4-63ff-44be-af6f-2dcfc5755a98" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/PublicApiIntegrationTests/bin/Debug/net8.0/PublicApiIntegrationTests.dll" adapterTypeName="executor://mstestadapter/v2" className="PublicApiIntegrationTests.AuthEndpoints.CreateCatalogItemEndpointTest" name="ReturnsSuccessGivenValidNewItemAndAdminUserToken" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fb3f5cc9-b069-a5b1-12d7-700c05fd87d3" executionId="14e55554-acf4-4a19-90c1-561baa40c6fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad2c30af-f8f4-e7c0-2745-25e3104157dd" executionId="36ffb383-aedf-4012-a7cd-9763fede0f7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff62d435-3fb5-b7e3-b45c-643e432b8b4f" executionId="ee8431c9-ddd0-46d1-8f6c-f5af07b6364f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e66b1255-feac-8044-34fe-38bcae5bd7d0" executionId="391dce27-aa6c-43c5-8f12-5452248940b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eed56cb9-9293-5cc9-98aa-5b855e1a9c87" executionId="48d7238e-4fc2-498c-a95b-c5f8ff3030cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41d3de90-f69a-6e8f-8312-a524ede5674b" executionId="3cc8df6b-039d-443e-ad7e-a0dd1a202802" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="894ef567-b10c-2379-a595-9743a7650063" executionId="9618c42d-33de-4b7d-9885-23a4ec351aae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01ea37a3-3283-9512-3049-97eca2904cc4" executionId="c10f9ca4-6432-41b9-a845-859027150f6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90b22ba8-f69e-bb6c-86f8-37849c5f2322" executionId="a5ffd46b-bfa5-40a8-96d0-691f24c8b9d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b303cc4-501c-227d-19d8-f08402e33924" executionId="ec1ac779-240f-4c82-a2ba-53425a64a817" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="575b1365-bafe-2d9a-f3bd-9ca493c726d4" executionId="4e767cee-3404-43e0-a498-831a43ac4008" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3a56bc1-fd1f-e735-f935-80363a79eeca" executionId="9d5c1af4-63ff-44be-af6f-2dcfc5755a98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3719732c-4cba-1550-cbe0-43c3f496d630" executionId="b3b6e380-aec7-416b-8b36-7f8222d3c3b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99395af2-75b0-ae64-1ce1-cc72f42c0d9b" executionId="453f58c0-5006-42dc-ba1f-3d4d84a9337f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ebf6ba7-785b-7676-9db9-6f063b44e567" executionId="4334ae2f-0b31-4bf9-8467-5a83663762d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="9813f6a30cac" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="9813f6a30cac/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
