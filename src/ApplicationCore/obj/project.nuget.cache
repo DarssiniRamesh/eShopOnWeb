@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hcNPXw0gynC2aOS9fgKV3xMrfvwFDlrJjlQMb3njqX4bJxbSFK9QX64EjUGiW08x23tpXJovQe70UVnIH5BmZw==",
+  "dgSpecHash": "btfVIgIPgwEelWlpKcsU+JaznOOdN1f6xKTZ84aDseyFDY6g+tIZ+odgRc74V0VyX4PRHvMq6pC4eGphwBDzGQ==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj",
   "expectedPackageFiles": [

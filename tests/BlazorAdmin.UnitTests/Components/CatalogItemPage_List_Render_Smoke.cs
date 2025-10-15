@@ -14,6 +14,6 @@ public sealed class CatalogItemPage_List_Render_Smoke : BaseTest
         // Assert
         Assert.NotNull(cut);
         // Verify that the page title/header exists to ensure basic render
-        cut.Markup.Contains("Manage Product Catalog");
+        Assert.Contains("Manage Product Catalog", cut.Markup);
     }
 }
