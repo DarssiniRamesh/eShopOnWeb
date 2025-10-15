@@ -19,7 +19,7 @@ public class BlazorComponent : ComponentBase
 
     private void DoRefresh()
     {
-        StateHasChanged();
+        InvokeAsync(StateHasChanged);
     }
 
 }

@@ -45,7 +45,7 @@ public class AppRenderTests
         auth.SetAuthorized("admin");
         auth.SetRoles("Administrators");
 
-        var nav = ctx.Services.GetRequiredService<NavigationManager>() as TestNavigationManager;
+        var nav = ctx.Services.GetRequiredService<NavigationManager>() as FakeNavigationManager;
         nav!.NavigateTo("http://localhost/admin");
 
         var cut = ctx.RenderComponent<App>();
@@ -60,7 +60,7 @@ public class AppRenderTests
         using var ctx = TestContextFactory.Create();
         ctx.AddTestAuthorization();
 
-        var nav = ctx.Services.GetRequiredService<NavigationManager>() as TestNavigationManager;
+        var nav = ctx.Services.GetRequiredService<NavigationManager>() as FakeNavigationManager;
         nav!.NavigateTo("http://localhost/nope");
 
         var cut = ctx.RenderComponent<App>();

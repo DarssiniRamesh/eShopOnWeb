@@ -13,6 +13,7 @@
           "Microsoft.NET.Test.Sdk": "17.9.0",
           "bunit": "1.29.5",
           "coverlet.collector": "6.0.2",
+          "coverlet.msbuild": "6.0.2",
           "xunit": "2.7.0",
           "xunit.runner.visualstudio": "2.5.6"
         },
@@ -117,6 +118,7 @@
         }
       },
       "coverlet.collector/6.0.2": {},
+      "coverlet.msbuild/6.0.2": {},
       "FluentValidation/11.9.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -941,6 +943,13 @@
       "sha512": "sha512-bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
       "path": "coverlet.collector/6.0.2",
       "hashPath": "coverlet.collector.6.0.2.nupkg.sha512"
+    },
+    "coverlet.msbuild/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b4jBNH7mcQy1otyQErjjIUuGD74XxKZ1wvDufbY7jhWwckl7wIa+icjwdPYeI0aYMS4Tp63LIZvyMFjWwOMDw==",
+      "path": "coverlet.msbuild/6.0.2",
+      "hashPath": "coverlet.msbuild.6.0.2.nupkg.sha512"
     },
     "FluentValidation/11.9.0": {
       "type": "package",

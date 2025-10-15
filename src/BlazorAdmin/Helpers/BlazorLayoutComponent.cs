@@ -19,6 +19,6 @@ public class BlazorLayoutComponent : LayoutComponentBase
 
     private void DoRefresh()
     {
-        StateHasChanged();
+        InvokeAsync(StateHasChanged);
     }
 }

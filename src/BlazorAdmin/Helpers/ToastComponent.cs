@@ -46,12 +46,12 @@ public class ToastComponent : ComponentBase, IDisposable
     {
         BuildToastSettings(level, message);
         IsVisible = true;
-        StateHasChanged();
+        InvokeAsync(StateHasChanged);
     }
     private void HideToast()
     {
         IsVisible = false;
-        StateHasChanged();
+        InvokeAsync(StateHasChanged);
     }
     private void BuildToastSettings(ToastLevel level, string message)
     {
@@ -83,5 +83,6 @@ public class ToastComponent : ComponentBase, IDisposable
     public void Dispose()
     {
         ToastService.OnShow -= ShowToast;
+        ToastService.OnHide -= HideToast;
     }
 }

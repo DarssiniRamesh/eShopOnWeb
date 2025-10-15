@@ -1,45 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="0b9fadae-0682-4048-bef4-b66747e4042f" name="@2bce4d7d4ef6 2025-10-15 16:36:08" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-10-15T16:36:08.9811502+00:00" queuing="2025-10-15T16:36:08.9811503+00:00" start="2025-10-15T16:36:02.2488769+00:00" finish="2025-10-15T16:36:09.0108511+00:00" />
-  <TestSettings name="default" id="0a116e67-dc4a-42ce-b9cd-2864e52db420">
-    <Deployment runDeploymentRoot="_2bce4d7d4ef6_2025-10-15_16_36_08" />
+<TestRun id="8719ac45-8144-4850-94bc-8970f5851972" name="@2bce4d7d4ef6 2025-10-15 17:30:35" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-15T17:30:35.7495670+00:00" queuing="2025-10-15T17:30:35.7495670+00:00" start="2025-10-15T17:30:30.2146076+00:00" finish="2025-10-15T17:30:36.8472041+00:00" />
+  <TestSettings name="default" id="4835c128-f1f5-4f31-be1c-2f0fe332764a">
+    <Deployment runDeploymentRoot="_2bce4d7d4ef6_2025-10-15_17_30_35" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="96dec2cd-0ae1-4b37-8ce1-e9af85bc14f6" testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" computerName="2bce4d7d4ef6" duration="00:00:00.1305092" startTime="2025-10-15T16:36:07.7594542+00:00" endTime="2025-10-15T16:36:07.7594545+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96dec2cd-0ae1-4b37-8ce1-e9af85bc14f6" />
-    <UnitTestResult executionId="92319a4f-f884-425c-94e5-b7d54889fc2c" testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" testName="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke.List_Page_Render_DoesNotThrow" computerName="2bce4d7d4ef6" duration="00:00:00.7020437" startTime="2025-10-15T16:36:08.2911438+00:00" endTime="2025-10-15T16:36:08.2911443+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92319a4f-f884-425c-94e5-b7d54889fc2c" />
-    <UnitTestResult executionId="d3b9b151-7183-4b2e-8f4d-e56851556f53" testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_Construct_Succeeds" computerName="2bce4d7d4ef6" duration="00:00:00.0304110" startTime="2025-10-15T16:36:07.6301445+00:00" endTime="2025-10-15T16:36:07.6302150+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3b9b151-7183-4b2e-8f4d-e56851556f53" />
+    <UnitTestResult executionId="b9f5fce8-9954-4bdd-a8b6-d2b250faf1ce" testId="34cdad67-9661-a193-2aaf-6578f31c7da5" testName="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_Shows_Info_SetsCssAndText" computerName="2bce4d7d4ef6" duration="00:00:00.1019120" startTime="2025-10-15T17:30:36.2297335+00:00" endTime="2025-10-15T17:30:36.2297337+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9f5fce8-9954-4bdd-a8b6-d2b250faf1ce" />
+    <UnitTestResult executionId="359670b3-92e7-4bf3-bf49-1925dc742a58" testId="f4ef0c07-0285-897b-e6e9-c1236736cbee" testName="BlazorAdmin.UnitTests.Components.AppRenderTests.App_UnknownRoute_Renders_NotFound_Message" computerName="2bce4d7d4ef6" duration="00:00:00.0036724" startTime="2025-10-15T17:30:36.1736019+00:00" endTime="2025-10-15T17:30:36.1736021+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="359670b3-92e7-4bf3-bf49-1925dc742a58" />
+    <UnitTestResult executionId="f44b2eed-5252-4d03-89a7-177d583979de" testId="b4eedc75-78c6-2cad-5984-f0ca5ebef7b4" testName="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_HideToast_InvokedViaService_PrivateMethod" computerName="2bce4d7d4ef6" duration="00:00:00.4452925" startTime="2025-10-15T17:30:36.1276990+00:00" endTime="2025-10-15T17:30:36.1276992+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f44b2eed-5252-4d03-89a7-177d583979de" />
+    <UnitTestResult executionId="6ebec6ac-a56b-4df8-b912-bebd47cd7a9e" testId="7ed62fbc-937f-cb7f-f4e1-c39a39cc31c8" testName="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Authorized_Shows_UserLinks_And_Active_Link_On_Admin" computerName="2bce4d7d4ef6" duration="00:00:00.0070368" startTime="2025-10-15T17:30:36.2346332+00:00" endTime="2025-10-15T17:30:36.2346333+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ebec6ac-a56b-4df8-b912-bebd47cd7a9e" />
+    <UnitTestResult executionId="7807083d-43e6-4274-af61-632b3143b6bc" testId="d9b8d5a6-213c-25be-4162-0d0ccd620d1d" testName="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Toggle_Collapse_Class_Changes_On_Click" computerName="2bce4d7d4ef6" duration="00:00:00.7006623" startTime="2025-10-15T17:30:36.2259145+00:00" endTime="2025-10-15T17:30:36.2259146+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7807083d-43e6-4274-af61-632b3143b6bc" />
+    <UnitTestResult executionId="f91727db-9686-4fea-93f7-3a266ed11c1e" testId="f1fbc379-7c5b-d18d-f59c-53676b49db6b" testName="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_Authenticated_SetsClaimsAndHeader_AndCaches" computerName="2bce4d7d4ef6" duration="00:00:00.0049035" startTime="2025-10-15T17:30:35.7196849+00:00" endTime="2025-10-15T17:30:35.7196850+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f91727db-9686-4fea-93f7-3a266ed11c1e" />
+    <UnitTestResult executionId="ce123eac-4413-443d-a3f5-d11a9601defa" testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" testName="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke.List_Page_Render_DoesNotThrow" computerName="2bce4d7d4ef6" duration="00:00:00.6510612" startTime="2025-10-15T17:30:36.1713430+00:00" endTime="2025-10-15T17:30:36.1713431+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce123eac-4413-443d-a3f5-d11a9601defa" />
+    <UnitTestResult executionId="510c1265-e647-43f9-baca-2485dcdd0c08" testId="efb8277e-2555-4974-c484-142687c71c69" testName="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_Unauthenticated_ReturnsAnonymous_NoHeader" computerName="2bce4d7d4ef6" duration="00:00:00.0641024" startTime="2025-10-15T17:30:35.6790412+00:00" endTime="2025-10-15T17:30:35.6790414+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="510c1265-e647-43f9-baca-2485dcdd0c08" />
+    <UnitTestResult executionId="fb89fc57-b314-4e04-9af5-5a35d45017db" testId="71b838bd-3134-7935-7212-12d2eae98fa2" testName="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_CacheExpired_PerformsNewFetch" computerName="2bce4d7d4ef6" duration="00:00:00.0024706" startTime="2025-10-15T17:30:35.7203515+00:00" endTime="2025-10-15T17:30:35.7203516+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb89fc57-b314-4e04-9af5-5a35d45017db" />
+    <UnitTestResult executionId="758ead3f-363c-4fb9-94da-9d5b4259a920" testId="669b5410-295c-d1f7-2e70-3fb8a9acc219" testName="BlazorAdmin.UnitTests.Components.MainLayoutTests.MainLayout_Shows_NavMenu_For_Admin_Role_Only" computerName="2bce4d7d4ef6" duration="00:00:00.0074623" startTime="2025-10-15T17:30:36.2208420+00:00" endTime="2025-10-15T17:30:36.2208421+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="758ead3f-363c-4fb9-94da-9d5b4259a920" />
+    <UnitTestResult executionId="9dc4fb33-3411-4aa8-8a45-41820fc32a4c" testId="a495eaa5-20ca-12ac-50e5-589220255a20" testName="BlazorAdmin.UnitTests.Components.ToastTests.ToastService_OnShow_StartsTimer_And_OnHide_Fires" computerName="2bce4d7d4ef6" duration="00:00:00.1570521" startTime="2025-10-15T17:30:35.7189493+00:00" endTime="2025-10-15T17:30:35.7189496+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dc4fb33-3411-4aa8-8a45-41820fc32a4c" />
+    <UnitTestResult executionId="6bbb2bc8-504b-426d-9881-9a1dbaee3892" testId="f86abb18-3637-9e4a-03a3-bd034d21596b" testName="BlazorAdmin.UnitTests.Components.AppRenderTests.App_NotAuthenticated_AdminRoute_Renders_RedirectToLogin" computerName="2bce4d7d4ef6" duration="00:00:00.6380859" startTime="2025-10-15T17:30:36.1633812+00:00" endTime="2025-10-15T17:30:36.1633815+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bbb2bc8-504b-426d-9881-9a1dbaee3892" />
+    <UnitTestResult executionId="3e9bbebc-e017-44a8-9cb5-7f4ebbd338bd" testId="6804e069-bd89-d018-804d-45959463aee5" testName="BlazorAdmin.UnitTests.Components.AppRenderTests.App_Authorized_NotInRole_Shows_NotAuthorized_Message" computerName="2bce4d7d4ef6" duration="00:00:00.0044139" startTime="2025-10-15T17:30:36.1679266+00:00" endTime="2025-10-15T17:30:36.1679268+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e9bbebc-e017-44a8-9cb5-7f4ebbd338bd" />
+    <UnitTestResult executionId="0dba44c3-b26f-46c6-adc6-bbdfa2e77657" testId="e1128218-daa9-3b69-4b8f-86363b44b0d4" testName="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_HttpError_ReturnsAnonymous" computerName="2bce4d7d4ef6" duration="00:00:00.0895833" startTime="2025-10-15T17:30:35.6148210+00:00" endTime="2025-10-15T17:30:35.6148212+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dba44c3-b26f-46c6-adc6-bbdfa2e77657" />
+    <UnitTestResult executionId="e186b9ec-9cc4-4e5f-a34b-f9a99f1349a6" testId="5a399281-0bf1-aaab-73d7-5deccb599a15" testName="BlazorAdmin.UnitTests.Components.MainLayoutTests.MainLayout_Renders_Body_And_Toast" computerName="2bce4d7d4ef6" duration="00:00:00.6880267" startTime="2025-10-15T17:30:36.2132820+00:00" endTime="2025-10-15T17:30:36.2132822+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e186b9ec-9cc4-4e5f-a34b-f9a99f1349a6" />
+    <UnitTestResult executionId="6d51cfc6-f2c6-4873-ba89-be9c013ebae2" testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_Construct_Succeeds" computerName="2bce4d7d4ef6" duration="00:00:00.0279328" startTime="2025-10-15T17:30:35.5585952+00:00" endTime="2025-10-15T17:30:35.5586665+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d51cfc6-f2c6-4873-ba89-be9c013ebae2" />
+    <UnitTestResult executionId="a56b800c-900c-4499-8c9a-e4b620b1276e" testId="46b2a893-8223-0d18-c409-28c88308911a" testName="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Unauthorized_DoesNot_Show_Protected_Links" computerName="2bce4d7d4ef6" duration="00:00:00.0015143" startTime="2025-10-15T17:30:36.2275145+00:00" endTime="2025-10-15T17:30:36.2275146+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a56b800c-900c-4499-8c9a-e4b620b1276e" />
+    <UnitTestResult executionId="7b1db0ae-4704-442c-8838-fb39c5c3e173" testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" computerName="2bce4d7d4ef6" duration="00:00:00.1277356" startTime="2025-10-15T17:30:35.7201118+00:00" endTime="2025-10-15T17:30:35.7201119+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b1db0ae-4704-442c-8838-fb39c5c3e173" />
+    <UnitTestResult executionId="d72da716-3c5d-40aa-a3c3-52962a0902ff" testId="8fa01cce-0c2a-ac12-c7e3-a9daad80afbd" testName="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_Shows_Success_Warning_Error" computerName="2bce4d7d4ef6" duration="00:00:00.0014817" startTime="2025-10-15T17:30:36.2312809+00:00" endTime="2025-10-15T17:30:36.2312810+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d72da716-3c5d-40aa-a3c3-52962a0902ff" />
+    <UnitTestResult executionId="f2cf3dd9-8eec-4608-b92d-ee47710b072c" testId="b9c2cedc-26f8-9e2c-0fb8-6947fe3a54cc" testName="BlazorAdmin.UnitTests.Components.AppRenderTests.App_Authorized_AdminRole_Renders_Admin_List_Page" computerName="2bce4d7d4ef6" duration="00:00:00.0102015" startTime="2025-10-15T17:30:36.1819892+00:00" endTime="2025-10-15T17:30:36.1819894+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2cf3dd9-8eec-4608-b92d-ee47710b072c" />
   </Results>
   <TestDefinitions>
     <UnitTest name="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke.List_Page_Render_DoesNotThrow" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5">
-      <Execution id="92319a4f-f884-425c-94e5-b7d54889fc2c" />
+      <Execution id="ce123eac-4413-443d-a3f5-d11a9601defa" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke" name="List_Page_Render_DoesNotThrow" />
     </UnitTest>
     <UnitTest name="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_Construct_Succeeds" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="6c09dd8d-d052-1f31-a12f-45bcb4d47add">
-      <Execution id="d3b9b151-7183-4b2e-8f4d-e56851556f53" />
+      <Execution id="6d51cfc6-f2c6-4873-ba89-be9c013ebae2" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke" name="CatalogItemService_Construct_Succeeds" />
     </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.AppRenderTests.App_UnknownRoute_Renders_NotFound_Message" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="f4ef0c07-0285-897b-e6e9-c1236736cbee">
+      <Execution id="359670b3-92e7-4bf3-bf49-1925dc742a58" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.AppRenderTests" name="App_UnknownRoute_Renders_NotFound_Message" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Unauthorized_DoesNot_Show_Protected_Links" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="46b2a893-8223-0d18-c409-28c88308911a">
+      <Execution id="a56b800c-900c-4499-8c9a-e4b620b1276e" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.NavMenuTests" name="NavMenu_Unauthorized_DoesNot_Show_Protected_Links" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_CacheExpired_PerformsNewFetch" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="71b838bd-3134-7935-7212-12d2eae98fa2">
+      <Execution id="fb89fc57-b314-4e04-9af5-5a35d45017db" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests" name="GetAuthenticationStateAsync_CacheExpired_PerformsNewFetch" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_Authenticated_SetsClaimsAndHeader_AndCaches" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="f1fbc379-7c5b-d18d-f59c-53676b49db6b">
+      <Execution id="f91727db-9686-4fea-93f7-3a266ed11c1e" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests" name="GetAuthenticationStateAsync_Authenticated_SetsClaimsAndHeader_AndCaches" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_HttpError_ReturnsAnonymous" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="e1128218-daa9-3b69-4b8f-86363b44b0d4">
+      <Execution id="0dba44c3-b26f-46c6-adc6-bbdfa2e77657" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests" name="GetAuthenticationStateAsync_HttpError_ReturnsAnonymous" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Authorized_Shows_UserLinks_And_Active_Link_On_Admin" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="7ed62fbc-937f-cb7f-f4e1-c39a39cc31c8">
+      <Execution id="6ebec6ac-a56b-4df8-b912-bebd47cd7a9e" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.NavMenuTests" name="NavMenu_Authorized_Shows_UserLinks_And_Active_Link_On_Admin" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests.GetAuthenticationStateAsync_Unauthenticated_ReturnsAnonymous_NoHeader" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="efb8277e-2555-4974-c484-142687c71c69">
+      <Execution id="510c1265-e647-43f9-baca-2485dcdd0c08" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Auth.CustomAuthStateProviderTests" name="GetAuthenticationStateAsync_Unauthenticated_ReturnsAnonymous_NoHeader" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.NavMenuTests.NavMenu_Toggle_Collapse_Class_Changes_On_Click" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="d9b8d5a6-213c-25be-4162-0d0ccd620d1d">
+      <Execution id="7807083d-43e6-4274-af61-632b3143b6bc" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.NavMenuTests" name="NavMenu_Toggle_Collapse_Class_Changes_On_Click" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.AppRenderTests.App_Authorized_NotInRole_Shows_NotAuthorized_Message" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="6804e069-bd89-d018-804d-45959463aee5">
+      <Execution id="3e9bbebc-e017-44a8-9cb5-7f4ebbd338bd" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.AppRenderTests" name="App_Authorized_NotInRole_Shows_NotAuthorized_Message" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.ToastTests.ToastService_OnShow_StartsTimer_And_OnHide_Fires" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="a495eaa5-20ca-12ac-50e5-589220255a20">
+      <Execution id="9dc4fb33-3411-4aa8-8a45-41820fc32a4c" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.ToastTests" name="ToastService_OnShow_StartsTimer_And_OnHide_Fires" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_Shows_Info_SetsCssAndText" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="34cdad67-9661-a193-2aaf-6578f31c7da5">
+      <Execution id="b9f5fce8-9954-4bdd-a8b6-d2b250faf1ce" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.ToastTests" name="ToastComponent_Shows_Info_SetsCssAndText" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.MainLayoutTests.MainLayout_Shows_NavMenu_For_Admin_Role_Only" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="669b5410-295c-d1f7-2e70-3fb8a9acc219">
+      <Execution id="758ead3f-363c-4fb9-94da-9d5b4259a920" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.MainLayoutTests" name="MainLayout_Shows_NavMenu_For_Admin_Role_Only" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.MainLayoutTests.MainLayout_Renders_Body_And_Toast" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="5a399281-0bf1-aaab-73d7-5deccb599a15">
+      <Execution id="e186b9ec-9cc4-4e5f-a34b-f9a99f1349a6" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.MainLayoutTests" name="MainLayout_Renders_Body_And_Toast" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_Shows_Success_Warning_Error" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="8fa01cce-0c2a-ac12-c7e3-a9daad80afbd">
+      <Execution id="d72da716-3c5d-40aa-a3c3-52962a0902ff" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.ToastTests" name="ToastComponent_Shows_Success_Warning_Error" />
+    </UnitTest>
     <UnitTest name="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="026c3ff8-a776-1e3a-39d1-abbf926674e4">
-      <Execution id="96dec2cd-0ae1-4b37-8ce1-e9af85bc14f6" />
+      <Execution id="7b1db0ae-4704-442c-8838-fb39c5c3e173" />
       <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke" name="CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.ToastTests.ToastComponent_HideToast_InvokedViaService_PrivateMethod" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="b4eedc75-78c6-2cad-5984-f0ca5ebef7b4">
+      <Execution id="f44b2eed-5252-4d03-89a7-177d583979de" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.ToastTests" name="ToastComponent_HideToast_InvokedViaService_PrivateMethod" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.AppRenderTests.App_NotAuthenticated_AdminRoute_Renders_RedirectToLogin" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="f86abb18-3637-9e4a-03a3-bd034d21596b">
+      <Execution id="6bbb2bc8-504b-426d-9881-9a1dbaee3892" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.AppRenderTests" name="App_NotAuthenticated_AdminRoute_Renders_RedirectToLogin" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.AppRenderTests.App_Authorized_AdminRole_Renders_Admin_List_Page" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="b9c2cedc-26f8-9e2c-0fb8-6947fe3a54cc">
+      <Execution id="f2cf3dd9-8eec-4608-b92d-ee47710b072c" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.AppRenderTests" name="App_Authorized_AdminRole_Renders_Admin_List_Page" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" executionId="96dec2cd-0ae1-4b37-8ce1-e9af85bc14f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" executionId="92319a4f-f884-425c-94e5-b7d54889fc2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" executionId="d3b9b151-7183-4b2e-8f4d-e56851556f53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34cdad67-9661-a193-2aaf-6578f31c7da5" executionId="b9f5fce8-9954-4bdd-a8b6-d2b250faf1ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4ef0c07-0285-897b-e6e9-c1236736cbee" executionId="359670b3-92e7-4bf3-bf49-1925dc742a58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4eedc75-78c6-2cad-5984-f0ca5ebef7b4" executionId="f44b2eed-5252-4d03-89a7-177d583979de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ed62fbc-937f-cb7f-f4e1-c39a39cc31c8" executionId="6ebec6ac-a56b-4df8-b912-bebd47cd7a9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9b8d5a6-213c-25be-4162-0d0ccd620d1d" executionId="7807083d-43e6-4274-af61-632b3143b6bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1fbc379-7c5b-d18d-f59c-53676b49db6b" executionId="f91727db-9686-4fea-93f7-3a266ed11c1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" executionId="ce123eac-4413-443d-a3f5-d11a9601defa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efb8277e-2555-4974-c484-142687c71c69" executionId="510c1265-e647-43f9-baca-2485dcdd0c08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71b838bd-3134-7935-7212-12d2eae98fa2" executionId="fb89fc57-b314-4e04-9af5-5a35d45017db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="669b5410-295c-d1f7-2e70-3fb8a9acc219" executionId="758ead3f-363c-4fb9-94da-9d5b4259a920" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a495eaa5-20ca-12ac-50e5-589220255a20" executionId="9dc4fb33-3411-4aa8-8a45-41820fc32a4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f86abb18-3637-9e4a-03a3-bd034d21596b" executionId="6bbb2bc8-504b-426d-9881-9a1dbaee3892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6804e069-bd89-d018-804d-45959463aee5" executionId="3e9bbebc-e017-44a8-9cb5-7f4ebbd338bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1128218-daa9-3b69-4b8f-86363b44b0d4" executionId="0dba44c3-b26f-46c6-adc6-bbdfa2e77657" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a399281-0bf1-aaab-73d7-5deccb599a15" executionId="e186b9ec-9cc4-4e5f-a34b-f9a99f1349a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" executionId="6d51cfc6-f2c6-4873-ba89-be9c013ebae2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46b2a893-8223-0d18-c409-28c88308911a" executionId="a56b800c-900c-4499-8c9a-e4b620b1276e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" executionId="7b1db0ae-4704-442c-8838-fb39c5c3e173" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fa01cce-0c2a-ac12-c7e3-a9daad80afbd" executionId="d72da716-3c5d-40aa-a3c3-52962a0902ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9c2cedc-26f8-9e2c-0fb8-6947fe3a54cc" executionId="f2cf3dd9-8eec-4608-b92d-ee47710b072c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <ResultSummary outcome="Completed">
-    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Counters total="20" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.6+bf9b858c26 (64-bit .NET 8.0.20)
-[xUnit.net 00:00:00.15]   Discovering: BlazorAdmin.UnitTests
-[xUnit.net 00:00:00.20]   Discovered:  BlazorAdmin.UnitTests
-[xUnit.net 00:00:00.20]   Starting:    BlazorAdmin.UnitTests
-[xUnit.net 00:00:00.97]   Finished:    BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.16]   Discovering: BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.22]   Discovered:  BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.22]   Starting:    BlazorAdmin.UnitTests
+[xUnit.net 00:00:01.00]   Finished:    BlazorAdmin.UnitTests
 </StdOut>
     </Output>
     <CollectorDataEntries>
@@ -53,7 +155,7 @@
       <Collector agentName="2bce4d7d4ef6" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
         <UriAttachments>
           <UriAttachment>
-            <A href="2bce4d7d4ef6/_2bce4d7d4ef6_2025-10-15.16_36_08.coverage"></A>
+            <A href="2bce4d7d4ef6/_2bce4d7d4ef6_2025-10-15.17_30_36.coverage"></A>
           </UriAttachment>
         </UriAttachments>
       </Collector>
