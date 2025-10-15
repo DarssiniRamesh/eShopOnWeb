@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SZchOFYxeF2pc295NV3iYBMwQsy4BtpIu8z6r0o0hwmy9w3SXXO76nrGMZFv1r/WNXQ7ow7KSozMRtSq1DpGOw==",
+  "dgSpecHash": "VXECnyfwZudYnIWeeRNXJtiZdD17G4c21d86V3leYyEscEifB09mhiip5ocjP2ZBT4ZY9Bmv076t0P+zeqpp+Q==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj",
   "expectedPackageFiles": [

@@ -3285,8 +3285,7 @@
       "BlazorAdmin >= 1.0.0",
       "BlazorShared >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.9.0",
-      "bunit >= 1.29.0",
-      "bunit.xunit >= 1.29.0",
+      "bunit >= 1.29.5",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.7.0",
       "xunit.runner.visualstudio >= 2.5.6"
@@ -3344,12 +3343,7 @@
           },
           "bunit": {
             "target": "Package",
-            "version": "[1.29.0, )",
-            "versionCentrallyManaged": true
-          },
-          "bunit.xunit": {
-            "target": "Package",
-            "version": "[1.29.0, )",
+            "version": "[1.29.5, )",
             "versionCentrallyManaged": true
           },
           "coverlet.collector": {
@@ -3383,8 +3377,7 @@
           "Blazored.LocalStorage": "[4.5.0, )",
           "BlazorInputFile": "[0.2.0, )",
           "BuildBundlerMinifier": "[3.2.449, )",
-          "bunit": "[1.29.0, )",
-          "bunit.xunit": "[1.29.0, )",
+          "bunit": "[1.29.5, )",
           "coverlet.collector": "[6.0.2, )",
           "FluentValidation": "[11.9.0, )",
           "MediatR": "[12.0.1, )",
@@ -3443,26 +3436,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.120/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "BlazorAdmin.UnitTests depends on bunit (>= 1.29.0) but bunit 1.29.0 was not found. An approximate best match of bunit 1.29.5 was resolved.",
-      "libraryId": "bunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package bunit.xunit with version (>= 1.29.0)\n  - Found 9 version(s) in nuget.org [ Nearest version: 1.0.0-preview-02 ]",
-      "libraryId": "bunit.xunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

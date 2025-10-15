@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "TLAQUV5/bghGN9tlRkgvQPDlYX0/IcuRVsYTrt4Wtf25y15o+vjNZ2QkpegqsGsvRPghrqsjCR7Ajo0wVuE51w==",
-  "success": false,
+  "dgSpecHash": "7I23MEvrVf8e8CA84wB+i72vHbrIk74eNfElGEKum8ApEvJRH2SQ5Fc0MamvvuMo5GE3TCvKkOSnr3wnXsO1lg==",
+  "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/BlazorAdmin.UnitTests.csproj",
   "expectedPackageFiles": [
     "/home/kavia/.nuget/packages/anglesharp/1.1.2/anglesharp.1.1.2.nupkg.sha512",
@@ -68,25 +68,5 @@
     "/home/kavia/.nuget/packages/xunit.extensibility.execution/2.7.0/xunit.extensibility.execution.2.7.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/xunit.runner.visualstudio/2.5.6/xunit.runner.visualstudio.2.5.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "BlazorAdmin.UnitTests depends on bunit (>= 1.29.0) but bunit 1.29.0 was not found. An approximate best match of bunit 1.29.5 was resolved.",
-      "libraryId": "bunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package bunit.xunit with version (>= 1.29.0)\n  - Found 9 version(s) in nuget.org [ Nearest version: 1.0.0-preview-02 ]",
-      "libraryId": "bunit.xunit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

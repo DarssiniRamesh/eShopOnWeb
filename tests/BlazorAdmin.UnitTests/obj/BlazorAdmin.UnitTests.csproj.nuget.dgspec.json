@@ -114,8 +114,7 @@
             "Blazored.LocalStorage": "[4.5.0, )",
             "BlazorInputFile": "[0.2.0, )",
             "BuildBundlerMinifier": "[3.2.449, )",
-            "bunit": "[1.29.0, )",
-            "bunit.xunit": "[1.29.0, )",
+            "bunit": "[1.29.5, )",
             "coverlet.collector": "[6.0.2, )",
             "FluentValidation": "[11.9.0, )",
             "MediatR": "[12.0.1, )",
@@ -245,8 +244,7 @@
             "Blazored.LocalStorage": "[4.5.0, )",
             "BlazorInputFile": "[0.2.0, )",
             "BuildBundlerMinifier": "[3.2.449, )",
-            "bunit": "[1.29.0, )",
-            "bunit.xunit": "[1.29.0, )",
+            "bunit": "[1.29.5, )",
             "coverlet.collector": "[6.0.2, )",
             "FluentValidation": "[11.9.0, )",
             "MediatR": "[12.0.1, )",
@@ -355,12 +353,7 @@
             },
             "bunit": {
               "target": "Package",
-              "version": "[1.29.0, )",
-              "versionCentrallyManaged": true
-            },
-            "bunit.xunit": {
-              "target": "Package",
-              "version": "[1.29.0, )",
+              "version": "[1.29.5, )",
               "versionCentrallyManaged": true
             },
             "coverlet.collector": {
@@ -394,8 +387,7 @@
             "Blazored.LocalStorage": "[4.5.0, )",
             "BlazorInputFile": "[0.2.0, )",
             "BuildBundlerMinifier": "[3.2.449, )",
-            "bunit": "[1.29.0, )",
-            "bunit.xunit": "[1.29.0, )",
+            "bunit": "[1.29.5, )",
             "coverlet.collector": "[6.0.2, )",
             "FluentValidation": "[11.9.0, )",
             "MediatR": "[12.0.1, )",

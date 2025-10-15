@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rUp0cDGskcNrmw5zq4rL1ALIaZWh60cVPdRpkCUZORx5b9ovX+4NBKxHNJocG6GRULrs3W9/i46PjtGh07Bk2w==",
+  "dgSpecHash": "Z/5ZxStDWkMFpvj1FRbXh53+IzRpJHOhLaLoFxTrgoSZzjKFK0wv9H1aZ4+XZHpKM2DuV5HNgibHdztjxXWqiA==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/IntegrationTests/IntegrationTests.csproj",
   "expectedPackageFiles": [

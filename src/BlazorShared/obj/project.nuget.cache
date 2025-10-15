@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KgxdBAYErQofop5NzLcgYHIryT40AbsSrLnpb0E5uDSKHlAy7tBDfB0CNfmWwsM3U4bVlFeFfc3m+vXZsLZT+Q==",
+  "dgSpecHash": "FoAUBHAkXJNvDPTEoV8Sxe1aMUQg7p/j6O6qT+pmwYKFuvy77fhlB/59qG2xlCDgmybYnAb0RrdRrVDmpwqgnQ==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/BlazorShared/BlazorShared.csproj",
   "expectedPackageFiles": [

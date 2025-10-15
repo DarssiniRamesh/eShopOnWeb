@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f590a09e-ecf7-4ff0-90ea-a689bd4aa1ea" name="@2bce4d7d4ef6 2025-10-15 16:36:24" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-15T16:36:24.2961069+00:00" queuing="2025-10-15T16:36:24.2961070+00:00" start="2025-10-15T16:36:22.9799099+00:00" finish="2025-10-15T16:36:24.3070230+00:00" />
+  <TestSettings name="default" id="275d833d-0daa-4620-b923-31baf4a1211f">
+    <Deployment runDeploymentRoot="_2bce4d7d4ef6_2025-10-15_16_36_24" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9eab6adb-3a4a-4a27-9610-ee71e2dd7c70" testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_Construct_Succeeds" computerName="2bce4d7d4ef6" duration="00:00:00.0077510" startTime="2025-10-15T16:36:23.6785070+00:00" endTime="2025-10-15T16:36:23.6785386+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eab6adb-3a4a-4a27-9610-ee71e2dd7c70" />
+    <UnitTestResult executionId="86e15111-5dc5-405e-957b-1d452f13446f" testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" testName="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" computerName="2bce4d7d4ef6" duration="00:00:00.0645266" startTime="2025-10-15T16:36:23.7423096+00:00" endTime="2025-10-15T16:36:23.7423098+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86e15111-5dc5-405e-957b-1d452f13446f" />
+    <UnitTestResult executionId="437ee4c6-8fb9-4bc5-bb1d-61ceb15abfde" testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" testName="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke.List_Page_Render_DoesNotThrow" computerName="2bce4d7d4ef6" duration="00:00:00.4934022" startTime="2025-10-15T16:36:24.1550145+00:00" endTime="2025-10-15T16:36:24.1550147+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="437ee4c6-8fb9-4bc5-bb1d-61ceb15abfde" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke.List_Page_Render_DoesNotThrow" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5">
+      <Execution id="437ee4c6-8fb9-4bc5-bb1d-61ceb15abfde" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Components.CatalogItemPage_List_Render_Smoke" name="List_Page_Render_DoesNotThrow" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_Construct_Succeeds" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="6c09dd8d-d052-1f31-a12f-45bcb4d47add">
+      <Execution id="9eab6adb-3a4a-4a27-9610-ee71e2dd7c70" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke" name="CatalogItemService_Construct_Succeeds" />
+    </UnitTest>
+    <UnitTest name="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke.CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" storage="/home/kavia/workspace/code-generation/eshoponweb/tests/blazoradmin.unittests/bin/debug/net8.0/blazoradmin.unittests.dll" id="026c3ff8-a776-1e3a-39d1-abbf926674e4">
+      <Execution id="86e15111-5dc5-405e-957b-1d452f13446f" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/bin/Debug/net8.0/BlazorAdmin.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BlazorAdmin.UnitTests.Services.CatalogItemService_Smoke" name="CatalogItemService_List_UsesMockedHttpClient_ReturnsItems" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6c09dd8d-d052-1f31-a12f-45bcb4d47add" executionId="9eab6adb-3a4a-4a27-9610-ee71e2dd7c70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="026c3ff8-a776-1e3a-39d1-abbf926674e4" executionId="86e15111-5dc5-405e-957b-1d452f13446f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48fc86cc-b2ef-6b8c-636c-a950b77f6ff5" executionId="437ee4c6-8fb9-4bc5-bb1d-61ceb15abfde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.6+bf9b858c26 (64-bit .NET 8.0.20)
+[xUnit.net 00:00:00.09]   Discovering: BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.13]   Discovered:  BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.13]   Starting:    BlazorAdmin.UnitTests
+[xUnit.net 00:00:00.69]   Finished:    BlazorAdmin.UnitTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
