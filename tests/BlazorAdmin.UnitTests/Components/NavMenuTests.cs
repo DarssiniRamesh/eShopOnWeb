@@ -32,7 +32,7 @@ public class NavMenuTests
         auth.SetRoles("Administrators");
 
         // Navigate to /admin before render so NavLink becomes active
-        var nav = ctx.Services.GetRequiredService<NavigationManager>() as TestNavigationManager;
+        var nav = ctx.Services.GetRequiredService<NavigationManager>() as FakeNavigationManager;
         nav!.NavigateTo("http://localhost/admin");
 
         var cut = ctx.RenderComponent<NavMenu>();

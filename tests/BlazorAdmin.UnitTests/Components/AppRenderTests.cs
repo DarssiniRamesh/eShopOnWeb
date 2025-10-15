@@ -12,7 +12,7 @@ public class AppRenderTests
         auth.SetNotAuthorized();
 
         // Navigate to /admin (protected)
-        var nav = ctx.Services.GetRequiredService<NavigationManager>() as TestNavigationManager;
+        var nav = ctx.Services.GetRequiredService<NavigationManager>() as FakeNavigationManager;
         nav!.NavigateTo("http://localhost/admin");
 
         // JSInterop loose already set by TestContextFactory
