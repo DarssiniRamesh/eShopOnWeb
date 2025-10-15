@@ -69,7 +69,7 @@
     <PackageVersion Include="MSTest.TestFramework" Version="3.2.2" />
     <PackageVersion Include="coverlet.collector" Version="6.0.2" />
     <!-- bUnit for Blazor component testing -->
-    <PackageVersion Include="bunit" Version="1.29.0" />
-    <PackageVersion Include="bunit.xunit" Version="1.29.0" />
+    <PackageVersion Include="bunit" Version="1.29.5" />
+
   </ItemGroup>
 </Project>
