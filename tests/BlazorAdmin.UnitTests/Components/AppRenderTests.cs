@@ -29,7 +29,7 @@ public class AppRenderTests
         var auth = ctx.AddTestAuthorization();
         auth.SetAuthorized("user-without-role");
 
-        var nav = ctx.Services.GetRequiredService<NavigationManager>() as TestNavigationManager;
+        var nav = ctx.Services.GetRequiredService<NavigationManager>() as FakeNavigationManager;
         nav!.NavigateTo("http://localhost/admin");
 
         var cut = ctx.RenderComponent<App>();
