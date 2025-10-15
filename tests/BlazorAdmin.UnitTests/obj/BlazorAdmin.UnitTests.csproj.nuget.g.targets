@@ -9,6 +9,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder/8.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder/8.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.1/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers/8.0.6/buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers/8.0.6/buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)coverlet.msbuild/6.0.2/build/coverlet.msbuild.targets" Condition="Exists('$(NuGetPackageRoot)coverlet.msbuild/6.0.2/build/coverlet.msbuild.targets')" />
     <Import Project="$(NuGetPackageRoot)coverlet.collector/6.0.2/build/netstandard2.0/coverlet.collector.targets" Condition="Exists('$(NuGetPackageRoot)coverlet.collector/6.0.2/build/netstandard2.0/coverlet.collector.targets')" />
   </ImportGroup>
 </Project>

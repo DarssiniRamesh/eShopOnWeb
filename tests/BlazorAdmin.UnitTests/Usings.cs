@@ -12,3 +12,5 @@ global using Microsoft.Extensions.Logging.Abstractions;
 global using Xunit;
 global using Bunit;
 global using Bunit.TestDoubles;
+global using Microsoft.AspNetCore.Components;
+global using BlazorAdmin.UnitTests.Setup;

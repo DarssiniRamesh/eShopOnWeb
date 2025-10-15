@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JquhbuApKMzqx+FaRYNCuW1q7ivgxBOVZZYZuODdJ5LAbDIJjCfwK5IgWkqD91coaVTTvFHd9Z+srXQrYfVioA==",
+  "dgSpecHash": "fwxtT6Z/UEA8CC6Vi6CoEwJ4fIZ61wIfN2yAvPY0tRE81fZDufGevRwtT7xNmrWvSUHS9bGddqqIpxlWQS0cvQ==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/src/PublicApi/PublicApi.csproj",
   "expectedPackageFiles": [

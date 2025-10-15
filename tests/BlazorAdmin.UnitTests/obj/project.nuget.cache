@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7I23MEvrVf8e8CA84wB+i72vHbrIk74eNfElGEKum8ApEvJRH2SQ5Fc0MamvvuMo5GE3TCvKkOSnr3wnXsO1lg==",
+  "dgSpecHash": "NDkexYE6V4ro7x5COLiX9Ba30s9nrFciBJezKJIs65vWKqd+V2YnyGRVQKzgf9yVCj+cJsyEl6sy4WYkij5Vmg==",
   "success": true,
   "projectFilePath": "/home/kavia/workspace/code-generation/eShopOnWeb/tests/BlazorAdmin.UnitTests/BlazorAdmin.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/home/kavia/.nuget/packages/bunit.core/1.29.5/bunit.core.1.29.5.nupkg.sha512",
     "/home/kavia/.nuget/packages/bunit.web/1.29.5/bunit.web.1.29.5.nupkg.sha512",
     "/home/kavia/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
+    "/home/kavia/.nuget/packages/coverlet.msbuild/6.0.2/coverlet.msbuild.6.0.2.nupkg.sha512",
     "/home/kavia/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/home/kavia/.nuget/packages/microsoft.aspnetcore.authorization/8.0.6/microsoft.aspnetcore.authorization.8.0.6.nupkg.sha512",
     "/home/kavia/.nuget/packages/microsoft.aspnetcore.components/8.0.6/microsoft.aspnetcore.components.8.0.6.nupkg.sha512",
