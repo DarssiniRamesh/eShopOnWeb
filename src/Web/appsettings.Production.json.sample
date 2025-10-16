@@ -1,0 +1,19 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Microsoft": "Warning",
+      "System": "Warning"
+    }
+  },
+  "HSTS": {
+    "MaxAgeDays": 365,
+    "IncludeSubDomains": true,
+    "Preload": true
+  },
+  "baseUrls": {
+    "apiBase": "",
+    "webBase": ""
+  },
+  "AllowedHosts": "*"
+}

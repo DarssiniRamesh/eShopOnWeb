@@ -44,11 +44,13 @@ public class ExceptionMiddleware
         else
         {
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            await context.Response.WriteAsync(new ErrorDetails()
+            var problem = new Microsoft.AspNetCore.Mvc.ProblemDetails
             {
-                StatusCode = context.Response.StatusCode,
-                Message = exception.Message
-            }.ToString());
+                Status = context.Response.StatusCode,
+                Title = "An error occurred",
+                Detail = "An unexpected error occurred. Please contact support if the problem persists."
+            };
+            await context.Response.WriteAsJsonAsync(problem);
         }
     }
 }

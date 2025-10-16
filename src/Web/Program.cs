@@ -18,44 +18,124 @@ using Microsoft.eShopWeb.Web;
 using Microsoft.eShopWeb.Web.Configuration;
 using Microsoft.eShopWeb.Web.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.OpenApi.Models;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.AddConsole();
 
-if (builder.Environment.IsDevelopment() || builder.Environment.EnvironmentName == "Docker"){
-    // Configure SQL Server (local)
+// Add environment variables as default config source first
+builder.Configuration.AddEnvironmentVariables();
+
+// Azure Key Vault configuration (fallback to env vars)
+var keyVaultUri = builder.Configuration["AZURE_KEYVAULT_URI"] ?? builder.Configuration["AZURE_KEY_VAULT_ENDPOINT"];
+if (!string.IsNullOrWhiteSpace(keyVaultUri))
+{
+    try
+    {
+        var credential = new ChainedTokenCredential(new AzureDeveloperCliCredential(), new DefaultAzureCredential());
+        builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUri), credential);
+        builder.Logging.CreateLogger("Startup").LogInformation("Azure Key Vault configuration added.");
+    }
+    catch (Exception ex)
+    {
+        builder.Logging.CreateLogger("Startup").LogWarning(ex, "Failed to add Azure Key Vault configuration. Falling back to environment variables and appsettings.");
+    }
+}
+
+// Database configuration
+if (builder.Environment.IsDevelopment() || builder.Environment.EnvironmentName == "Docker")
+{
     Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);
 }
-else{
-    // Configure SQL Server (prod)
+else
+{
+    // Configure SQL Server (prod) - connection string names come from env/KeyVault
     var credential = new ChainedTokenCredential(new AzureDeveloperCliCredential(), new DefaultAzureCredential());
-    builder.Configuration.AddAzureKeyVault(new Uri(builder.Configuration["AZURE_KEY_VAULT_ENDPOINT"] ?? ""), credential);
+    // Key names stored in configuration
+    var catalogConnKey = builder.Configuration["AZURE_SQL_CATALOG_CONNECTION_STRING_KEY"];
+    var identityConnKey = builder.Configuration["AZURE_SQL_IDENTITY_CONNECTION_STRING_KEY"];
+
+    if (!string.IsNullOrWhiteSpace(keyVaultUri))
+    {
+        // already added KV as a configuration provider above
+    }
+
     builder.Services.AddDbContext<CatalogContext>(c =>
     {
-        var connectionString = builder.Configuration[builder.Configuration["AZURE_SQL_CATALOG_CONNECTION_STRING_KEY"] ?? ""];
+        var connectionString = !string.IsNullOrWhiteSpace(catalogConnKey)
+            ? builder.Configuration[catalogConnKey!]
+            : builder.Configuration.GetConnectionString("CatalogConnection");
         c.UseSqlServer(connectionString, sqlOptions => sqlOptions.EnableRetryOnFailure());
     });
     builder.Services.AddDbContext<AppIdentityDbContext>(options =>
     {
-        var connectionString = builder.Configuration[builder.Configuration["AZURE_SQL_IDENTITY_CONNECTION_STRING_KEY"] ?? ""];
+        var connectionString = !string.IsNullOrWhiteSpace(identityConnKey)
+            ? builder.Configuration[identityConnKey!]
+            : builder.Configuration.GetConnectionString("IdentityConnection");
         options.UseSqlServer(connectionString, sqlOptions => sqlOptions.EnableRetryOnFailure());
     });
 }
 
+// Data Protection keys configuration (persist and encrypt in production)
+var dpKeysPath = builder.Configuration["DP_KEYS_PATH"];
+var dp = builder.Services.AddDataProtection().SetApplicationName("eShopOnWeb");
+if (!string.IsNullOrWhiteSpace(dpKeysPath))
+{
+    Directory.CreateDirectory(dpKeysPath);
+    dp.PersistKeysToFileSystem(new DirectoryInfo(dpKeysPath));
+}
+else if (!builder.Environment.IsDevelopment())
+{
+    var defaultPath = Path.Combine(AppContext.BaseDirectory, "dpkeys");
+    Directory.CreateDirectory(defaultPath);
+    dp.PersistKeysToFileSystem(new DirectoryInfo(defaultPath));
+}
+var kvKeyIdentifier = builder.Configuration["KeyVault:KeyIdentifier"];
+if (!string.IsNullOrWhiteSpace(kvKeyIdentifier))
+{
+    dp.ProtectKeysWithAzureKeyVault(new Uri(kvKeyIdentifier), new DefaultAzureCredential());
+}
+
 builder.Services.AddCookieSettings();
+
+// Reinforce application cookie settings
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    options.Cookie.SameSite = SameSiteMode.Strict;
+    options.SlidingExpiration = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+});
+
+// Request size limits (Kestrel)
+var maxBodySizeStr = builder.Configuration["MAX_REQUEST_BODY_SIZE"];
+if (long.TryParse(maxBodySizeStr, out var maxBodySize) && maxBodySize > 0)
+{
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        options.Limits.MaxRequestBodySize = maxBodySize;
+    });
+}
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.Cookie.HttpOnly = true;
         options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-        options.Cookie.SameSite = SameSiteMode.Lax;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.SlidingExpiration = true;
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
     });
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
            .AddDefaultUI()
            .AddEntityFrameworkStores<AppIdentityDbContext>()
-                           .AddDefaultTokenProviders();
+           .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<ITokenClaimsService, IdentityTokenClaimService>();
 builder.Configuration.AddEnvironmentVariables();
@@ -178,10 +258,23 @@ else
 {
     app.Logger.LogInformation("Adding non-Development middleware...");
     app.UseExceptionHandler("/Error");
-    app.UseHsts();
+    // Configure HSTS with stricter defaults
+    var hstsMaxAgeDays = int.TryParse(builder.Configuration["HSTS:MaxAgeDays"], out var d) ? d : 365;
+    var hstsIncludeSubdomains = bool.TryParse(builder.Configuration["HSTS:IncludeSubDomains"], out var inc) ? inc : true;
+    var hstsPreload = bool.TryParse(builder.Configuration["HSTS:Preload"], out var preload) ? preload : true;
+    app.UseHsts(hsts => {
+        hsts.MaxAge = TimeSpan.FromDays(hstsMaxAgeDays);
+        hsts.IncludeSubDomains = hstsIncludeSubdomains;
+        hsts.Preload = hstsPreload;
+    });
 }
 
+// Enforce HTTPS always
 app.UseHttpsRedirection();
+
+// Apply global security headers
+app.UseSecurityHeaders();
+
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 app.UseRouting();
@@ -190,9 +283,20 @@ app.UseCookiePolicy();
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Swagger gating (optional for Web - only enable if explicitly requested via env)
+var enableSwagger = string.Equals(builder.Configuration["ENABLE_SWAGGER"], "true", StringComparison.OrdinalIgnoreCase);
+if (enableSwagger && (app.Environment.IsDevelopment() || app.Environment.EnvironmentName == "Docker"))
+{
+    // Placeholder if swagger is added to Web in future; currently PublicApi hosts Swagger
+}
 
 app.MapControllerRoute("default", "{controller:slugify=Home}/{action:slugify=Index}/{id?}");
 app.MapRazorPages();
+
+// Health checks: expose minimal info by default
+app.MapHealthChecks("/live", new HealthCheckOptions { Predicate = _ => false });
+app.MapHealthChecks("/ready", new HealthCheckOptions { Predicate = check => check.Tags.Contains("homePageHealthCheck") || check.Tags.Contains("apiHealthCheck") });
+
 app.MapHealthChecks("home_page_health_check", new HealthCheckOptions { Predicate = check => check.Tags.Contains("homePageHealthCheck") });
 app.MapHealthChecks("api_health_check", new HealthCheckOptions { Predicate = check => check.Tags.Contains("apiHealthCheck") });
 //endpoints.MapBlazorHub("/admin");

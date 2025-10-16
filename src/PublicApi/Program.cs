@@ -51,21 +51,35 @@ var baseUrlConfig = configSection.Get<BaseUrlConfiguration>();
 
 builder.Services.AddMemoryCache();
 
-var key = Encoding.ASCII.GetBytes(AuthorizationConstants.JWT_SECRET_KEY);
+var jwtKey = builder.Configuration["Auth:JwtKey"];
+var jwtIssuer = builder.Configuration["Auth:Issuer"];
+var jwtAudience = builder.Configuration["Auth:Audience"];
+
+if (string.IsNullOrWhiteSpace(jwtKey))
+{
+    // fallback to legacy constant to avoid breaking dev, but log warning
+    builder.Logging.CreateLogger("Startup").LogWarning("Auth:JwtKey not found in configuration. Falling back to AuthorizationConstants (dev only).");
+    jwtKey = AuthorizationConstants.JWT_SECRET_KEY;
+}
+
+var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
 builder.Services.AddAuthentication(config =>
 {
     config.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(config =>
 {
-    config.RequireHttpsMetadata = false;
+    config.RequireHttpsMetadata = !builder.Environment.IsDevelopment();
     config.SaveToken = true;
     config.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false
+        IssuerSigningKey = key,
+        ValidateIssuer = !string.IsNullOrWhiteSpace(jwtIssuer),
+        ValidIssuer = jwtIssuer,
+        ValidateAudience = !string.IsNullOrWhiteSpace(jwtAudience),
+        ValidAudience = jwtAudience,
+        ClockSkew = TimeSpan.FromMinutes(1)
     };
 });
 
@@ -151,6 +165,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/error");
+    app.UseHsts();
+}
 
 app.UseMiddleware<ExceptionMiddleware>();
 
@@ -160,17 +179,21 @@ app.UseRouting();
 
 app.UseCors(CORS_POLICY);
 
+// Security headers for API responses
+app.UseSecurityHeaders();
+
 app.UseAuthorization();
 
-// Enable middleware to serve generated Swagger as a JSON endpoint.
-app.UseSwagger();
-
-// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
-// specifying the Swagger JSON endpoint.
-app.UseSwaggerUI(c =>
+// Swagger gating: only enable in Development or when ENABLE_SWAGGER=true
+var enableSwagger = string.Equals(builder.Configuration["ENABLE_SWAGGER"], "true", StringComparison.OrdinalIgnoreCase);
+if (app.Environment.IsDevelopment() || enableSwagger)
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-});
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    });
+}
 
 app.MapControllers();
 app.MapEndpoints();

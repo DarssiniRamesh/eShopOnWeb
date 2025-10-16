@@ -92,6 +92,10 @@ According to the prompt, enter an `env name`, and select `subscription` and `loc
 
 You can also run the sample directly locally (See below).
 
+Security and configuration notes:
+- See SECURITY.md for hardened defaults, environment variables (.env.example), and verification steps.
+- When deploying to Azure, set AZURE_KEYVAULT_URI and use Key Vault to store all secrets (e.g., Auth:JwtKey, connection strings).
+
 ## Running the sample locally
 Most of the site's functionality works with just the web application running. However, the site's Admin page relies on Blazor WebAssembly running in the browser, and it must communicate with the server using the site's PublicApi web application. You'll need to also run this project. You can configure Visual Studio to start multiple projects, or just go to the PublicApi folder in a terminal window and run `dotnet run` from there. After that from the Web folder you should run `dotnet run --launch-profile Web`. Now you should be able to browse to `https://localhost:5001/`. The admin part in Blazor is accessible to `https://localhost:5001/admin`  
 

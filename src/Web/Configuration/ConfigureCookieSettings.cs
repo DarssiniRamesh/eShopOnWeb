@@ -14,15 +14,18 @@ public static class ConfigureCookieSettings
     {
         services.Configure<CookiePolicyOptions>(options =>
         {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                //TODO need to check that.
-                //options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.Strict;
+            // Only set consent if you have a consent mechanism; default to strict policy
+            options.MinimumSameSitePolicy = SameSiteMode.Strict;
+            options.Secure = CookieSecurePolicy.Always;
+            options.HttpOnly = HttpOnlyPolicy.Always;
         });
         services.ConfigureApplicationCookie(options =>
         {
             options.EventsType = typeof(RevokeAuthenticationEvents);
             options.Cookie.HttpOnly = true;
+            options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            options.Cookie.SameSite = SameSiteMode.Strict;
+            options.SlidingExpiration = true;
             options.ExpireTimeSpan = TimeSpan.FromMinutes(ValidityMinutesPeriod);
             options.LoginPath = "/Account/Login";
             options.LogoutPath = "/Account/Logout";
@@ -30,7 +33,7 @@ public static class ConfigureCookieSettings
             {
                 Name = IdentifierCookieName,
                 IsEssential = true // required for auth to work without explicit user consent; adjust to suit your privacy policy
-                };
+            };
         });
 
         services.AddScoped<RevokeAuthenticationEvents>();

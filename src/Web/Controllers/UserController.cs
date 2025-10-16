@@ -34,14 +34,12 @@ public class UserController : ControllerBase
 
     [HttpGet]
     [Authorize]
-    [AllowAnonymous]
     public async Task<IActionResult> GetCurrentUser() =>
         Ok(await CreateUserInfo(User));
 
     [Route("Logout")]
     [HttpPost]
     [Authorize]
-    [AllowAnonymous]
     public async Task<IActionResult> Logout()
     {
         await _signInManager.SignOutAsync();

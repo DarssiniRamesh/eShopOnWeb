@@ -8,6 +8,14 @@
 - Dependency-Risk-Report.md
 - Operational-Security-Checklist.md
 
+## Verification
+- See SECURITY.md for runbook and verification steps.
+- New files:
+  - src/Web/Middleware/SecurityHeadersMiddleware.cs
+  - src/Web/Security/DataProtectionExtensions.cs
+  - src/Web/appsettings.Production.json.sample
+  - .env.example
+
 ## Sources
 The documents reference and were informed by the following repository files:
 - src/ApplicationCore/Constants/AuthorizationConstants.cs

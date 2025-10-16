@@ -1,9 +1,9 @@
 # Operational Security Checklist
 
 ## Environment and Configuration
-- [ ] Enforce HTTPS; set HSTS with preload and includeSubDomains in production.
-- [ ] Configure Security Headers (CSP, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, Frame-Ancestors).
-- [ ] Set CookiePolicy and Application Cookie: HttpOnly, Secure, SameSite=Strict.
+- [x] Enforce HTTPS; set HSTS with preload and includeSubDomains in production.
+- [x] Configure Security Headers (CSP, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, Frame-Ancestors).
+- [x] Set CookiePolicy and Application Cookie: HttpOnly, Secure, SameSite=Strict.
 - [ ] Configure CORS via ALLOWED_ORIGINS environment variable (HTTPS only).
 - [ ] Disable or protect Swagger in production.
 
