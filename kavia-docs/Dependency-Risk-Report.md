@@ -40,6 +40,11 @@ This report highlights potential dependency-related risks and outlines verificat
 - Maintain a security baseline Dockerfile digest pinning and track base image CVEs.
 - CI/CD gate on critical and high vulnerabilities; require approval for waivers.
 
+## Changes in this update
+- Upgraded Azure.Identity from 1.10.4 to 1.11.4 (patched vulnerabilities; aligns with .NET 8).
+- Upgraded System.Text.Json from 8.0.3 to 8.0.4 (latest .NET 8 patch).
+- Added Swashbuckle packages to Web project to resolve Microsoft.OpenApi namespace (CS0234) and enable Swagger support when gated by ENABLE_SWAGGER.
+
 ## Verification Steps
 - Inventory all csproj PackageReference entries and versions across:
   - src/PublicApi/PublicApi.csproj

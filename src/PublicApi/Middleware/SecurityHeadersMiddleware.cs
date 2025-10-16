@@ -19,11 +19,18 @@ namespace Microsoft.eShopWeb.PublicApi.Middleware
             headers["X-Frame-Options"] = "DENY";
             headers["Referrer-Policy"] = "no-referrer-when-downgrade";
             headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=()";
+            // Allow Swagger resources when ENABLE_SWAGGER is true (dev-only)
+            var enableSwagger = string.Equals(Environment.GetEnvironmentVariable("ENABLE_SWAGGER"), "true", StringComparison.OrdinalIgnoreCase);
+            var scriptSrc = enableSwagger ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'" : "script-src 'self'";
+            var styleSrc = "style-src 'self' 'unsafe-inline'";
+            var imgSrc = enableSwagger ? "img-src 'self' data: blob:" : "img-src 'self' data:";
+            var connectSrc = enableSwagger ? "connect-src 'self' ws: wss:" : "connect-src 'self'";
             var csp = string.Join("; ",
                 "default-src 'self'",
-                "img-src 'self' data:",
-                "style-src 'self' 'unsafe-inline'",
-                "script-src 'self'",
+                imgSrc,
+                styleSrc,
+                scriptSrc,
+                connectSrc,
                 "object-src 'none'",
                 "frame-ancestors 'none'"
             );
