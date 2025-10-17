@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <!-- Redirect Intermediate and Output paths to a per-user temp location to avoid read-only or root-owned workspace folders -->
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)' == ''">$(Temp)\eShopOnWeb\obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(MSBuildProjectName)\</IntermediateOutputPath>
+    <BaseOutputPath Condition="'$(BaseOutputPath)' == ''">$(Temp)\eShopOnWeb\bin\</BaseOutputPath>
+
+    <!-- Reduce timestamp touching; prefer deterministic builds and disable sourcelink if it causes timestamp writes -->
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+
+    <!-- Some environments hit MSB3374 on SourceLink file timestamp operations; disable if not required -->
+    <EnableSourceLink>false</EnableSourceLink>
+
+    <!-- Ensure write permissions in the redirected temp paths -->
+    <CreateHardLinksForCopyFilesIfPossible>false</CreateHardLinksForCopyFilesIfPossible>
+    <UseSharedCompilation>false</UseSharedCompilation>
+  </PropertyGroup>
+
+  <!-- Ensure the redirected directories exist before builds -->
+  <Target Name="EnsureWritableBuildDirs" BeforeTargets="PrepareForBuild">
+    <MakeDir Directories="$(BaseIntermediateOutputPath)" />
+    <MakeDir Directories="$(IntermediateOutputPath)" />
+    <MakeDir Directories="$(BaseOutputPath)" />
+  </Target>
+</Project>
